@@ -86,7 +86,7 @@
       "prompt": "既有尾镜暗化，固定机位，品牌文字后期合成，4 秒静态落板。",
       "negative_prompt": "no unofficial logo, no watermark",
       "first_frame": "/files/p_mwajj9mj_gog4c/assets/A07.png",
-      "subtitle": "卫华集团\nAI 生成演示 · 内部预览",
+      "subtitle": "卫华集团\nAI 生成 · 内部预览",
       "narration": "卫华集团。",
       "status": "ready",
       "video": "/files/p_mwajj9mj_gog4c/videos/SH07.mp4"

@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>卫华短视频流水线 · GitHub Pages 在线演示</title>
+  <title>卫华短视频流水线</title>
   <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
@@ -11,12 +11,12 @@
     <div class="brand">
       <span class="brand-mark">卫</span>
       <div>
-        <h1>卫华短视频流水线 <span class="tag">GitHub Pages 在线演示</span></h1>
+        <h1>卫华短视频流水线 <span class="tag">云端工作台</span></h1>
         <p>一句话创意 → 分析 → 剧本 → 美术提示词 → 美术资产 → 分镜 → 每镜提示词 → 视频任务包</p>
       </div>
     </div>
     <nav class="nav">
-      <button class="nav-btn active" data-view="demo">演示中心</button>
+      <button class="nav-btn active" data-view="demo">工程中心</button>
       <button class="nav-btn" data-view="workflow">工作流画布</button>
       <button class="nav-btn" data-view="create">一键制作</button>
       <button class="nav-btn" id="openSettings">通道设置</button>
@@ -24,18 +24,18 @@
   </header>
 
   <main>
-    <div class="static-banner"><b>在线预制演示</b><span>五套工程与全部媒体已静态发布，点击即可查看；不会请求模型、保存数据或产生费用。</span><a href="https://github.com/YGtemple/weihua-short-video-demo" target="_blank" rel="noreferrer">查看 GitHub 仓库 →</a></div>
-    <!-- 演示中心 -->
+    <div class="static-banner"><b>五套预置工程</b><span>全部流程产物与媒体已就绪，点击即可查看；不会请求在线模型或保存修改。</span><a href="https://github.com/YGtemple/weihua-short-video-demo" target="_blank" rel="noreferrer">查看 GitHub 仓库 →</a></div>
+    <!-- 工程中心 -->
     <section id="view-demo" class="view">
       <div class="hero card">
         <div>
-          <h2>预制演示工程</h2>
-          <p class="muted">五套完整工程已预制：七阶段产物 + 每镜美术首帧 + 真实镜头视频 + 带字幕最终成片。A/C/E 各 7 镜，B/D 各 6 镜，点任意一套即可演示完整流程。</p>
+          <h2>预置工程</h2>
+          <p class="muted">五套完整工程已预置：七阶段产物 + 每镜美术首帧 + 真实镜头视频 + 带字幕最终成片。A/C/E 各 7 镜，B/D 各 6 镜，点任意一套即可查看完整流程。</p>
         </div>
         <div class="stats" id="stats"></div>
       </div>
       <div class="preset-grid" id="presetGrid"></div>
-      <p class="muted foot">本页面为只读预制演示：可查看全部阶段、逐镜视频与最终成片；实时创建、模型生成和配置修改请使用本机完整程序。</p>
+      <p class="muted foot">可查看全部阶段、逐镜视频与最终成片；实时创建、模型生成和配置修改请使用本机完整程序。</p>
     </section>
 
     <!-- 工作流画布：从一句话到最终成片 -->
@@ -44,10 +44,10 @@
       <div class="card workflow-input-card">
         <div class="workflow-input-label"><span class="live-dot"></span> 一句话创意</div>
         <textarea id="wfBrief" rows="2" placeholder="例如：用名场面穿越的方式，让3800吨门机与愚公移山同框"></textarea>
-        <div class="workflow-actions"><select id="wfProject" class="project-select"></select><button class="btn primary" id="wfCreateBtn">创建并一键拆解</button><button class="btn" id="wfDemoBtn">▶ 预制流程演示</button><button class="btn ghost" id="wfFinalBtn">查看最终成片</button></div>
+        <div class="workflow-actions"><select id="wfProject" class="project-select"></select><button class="btn primary" id="wfCreateBtn">创建并一键拆解</button><button class="btn" id="wfDemoBtn">▶ 播放完整流程</button><button class="btn ghost" id="wfFinalBtn">查看最终成片</button></div>
       </div>
       <div class="card flow-card">
-        <div class="flow-card-head"><div><strong>创作画布</strong><span id="wfProjectMeta"></span></div><span class="hint">点击节点查看产物 · 预制演示不重新生成</span></div>
+        <div class="flow-card-head"><div><strong>创作画布</strong><span id="wfProjectMeta"></span></div><span class="hint">点击节点查看产物 · 预置内容已就绪</span></div>
         <div class="flow-canvas"><div id="flowNodes" class="flow-nodes"></div></div>
       </div>
       <div class="card workflow-detail-card"><div id="wfStageContent"></div></div>
@@ -78,7 +78,7 @@
       </div>
     </section>
 
-    <!-- 工程详情（演示与制作共用） -->
+    <!-- 工程详情 -->
     <section id="view-detail" class="view hidden">
       <div class="detail-head card">
         <div>

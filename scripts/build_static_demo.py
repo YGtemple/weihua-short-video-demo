@@ -23,6 +23,10 @@ def replace_once(text: str, old: str, new: str, label: str) -> str:
 
 def static_url(value):
     if isinstance(value, str):
+        value = (value
+            .replace("预置演示工程", "预置工程")
+            .replace("演示稿标注待签核", "稿件标注待签核")
+            .replace("AI 生成演示 · 内部预览", "AI 生成 · 内部预览"))
         if value.startswith("/files/"):
             return "media/" + value.removeprefix("/files/")
         if value.startswith("/api/projects/"):
@@ -59,12 +63,12 @@ const post = (path, body) => api(path, {method: 'POST', body: JSON.stringify(bod
     new_api = """async function api(path, options = {}) {
   let target = path;
   if (STATIC) {
-    if ((options.method ?? 'GET') !== 'GET') throw new Error('GitHub Pages 在线版为只读预制演示，请使用本机完整程序执行实时生成。');
+    if ((options.method ?? 'GET') !== 'GET') throw new Error('当前在线页面不执行实时生成，请使用本机完整程序。');
     if (path === '/api/health') target = 'data/health.json';
     else if (path === '/api/projects') target = 'data/projects.json';
     else {
       const match = path.match(/^\\/api\\/projects\\/([^/?]+)$/);
-      if (!match) throw new Error('在线静态版不提供此接口');
+      if (!match) throw new Error('在线页面不提供此接口');
       target = `data/projects/${match[1]}.json`;
     }
   }
@@ -74,7 +78,7 @@ const post = (path, body) => api(path, {method: 'POST', body: JSON.stringify(bod
   return data;
 }
 const post = (path, body) => STATIC
-  ? Promise.resolve(alert('GitHub Pages 在线版为只读预制演示；实时创建与生成请运行本机完整程序。'))
+  ? Promise.resolve(alert('当前在线页面不执行实时创建与生成，请运行本机完整程序。'))
   : api(path, {method: 'POST', body: JSON.stringify(body ?? {})});"""
     text = replace_once(text, old_api, new_api, "static api")
     text = replace_once(text, "  setInterval(tick, 4000);", """  if (STATIC) {
@@ -83,7 +87,7 @@ const post = (path, body) => STATIC
     $('#runBtn').classList.add('hidden');
     $('#runAllBtn').classList.add('hidden');
     $('#wfCreateBtn').disabled = true;
-    $('#wfCreateBtn').textContent = '在线版为只读演示';
+    $('#wfCreateBtn').textContent = '预置工程已就绪';
     $('#createBtn').disabled = true;
   } else setInterval(tick, 4000);""", "read-only controls")
     old_header = """function stageHeader(p, s, extra = '') {
@@ -95,7 +99,7 @@ const post = (path, body) => STATIC
     new_header = """function stageHeader(p, s, extra = '') {
   const st = p.stages[s];
   const label = STAGES.find((x) => x.id === s)?.label ?? s;
-  const controls = STATIC ? '<span class="chip teal">已预制 · 只读</span>' : `${extra}<button class="btn small" onclick="run('${p.id}','${s}')">重跑此阶段</button>`;
+  const controls = STATIC ? '<span class="chip teal">内容已就绪</span>' : `${extra}<button class="btn small" onclick="run('${p.id}','${s}')">重跑此阶段</button>`;
   return `<div class="stage-title"><div><b>${label}</b> <span class="muted">${st ? st.status : '未执行'}</span></div>
     <div class="row">${controls}</div></div>`;
 }"""
@@ -105,19 +109,39 @@ const post = (path, body) => STATIC
     text = text.replace('href="/api/projects/${p.id}/task-pack.json"', 'href="${packBase}/task-pack.json"')
     text = text.replace('href="/api/projects/${p.id}/shot-prompts.txt"', 'href="${packBase}/shot-prompts.txt"')
     text = replace_once(text, "window.saveJson = async (key, elId) => {\n  try {",
-        "window.saveJson = async (key, elId) => {\n  if (STATIC) return alert('在线静态版不保存修改，请使用本机完整程序。');\n  try {", "read-only save")
+        "window.saveJson = async (key, elId) => {\n  if (STATIC) return alert('在线页面不保存修改，请使用本机完整程序。');\n  try {", "read-only save")
+    for old, new in {
+        '预制演示 + 可视化工作流': '预置工程 + 可视化工作流',
+        '▶ 进入演示': '▶ 进入工程',
+        '预制演示数据': '预置工程数据',
+        '预制流程演示请选择': '播放完整流程请选择',
+        '演示进行中…': '流程播放中…',
+        '▶ 预制流程演示': '▶ 播放完整流程',
+    }.items():
+        text = text.replace(old, new)
     return text
 
 
 def patch_index(text: str) -> str:
     text = text.replace('href="/styles.css"', 'href="./styles.css"')
     text = text.replace('<script src="/app.js"></script>', '<script>window.WEIHUA_STATIC = true;</script>\n  <script src="./app.js"></script>')
-    text = text.replace('卫华短视频流水线 · 演示与一键矩阵制作', '卫华短视频流水线 · GitHub Pages 在线演示')
-    text = text.replace('<span class="tag">演示版</span>', '<span class="tag">GitHub Pages 在线演示</span>')
-    text = text.replace('真实生成接口全部保留：切换到「一键制作」即可从一句话创意新建矩阵工程并实际调用模型。',
-        '本页面为只读预制演示：可查看全部阶段、逐镜视频与最终成片；实时创建、模型生成和配置修改请使用本机完整程序。')
+    for old, new in {
+        '卫华短视频流水线 · 演示与一键矩阵制作': '卫华短视频流水线',
+        '<span class="tag">演示版</span>': '<span class="tag">云端工作台</span>',
+        '>演示中心</button>': '>工程中心</button>',
+        '<!-- 演示中心 -->': '<!-- 工程中心 -->',
+        '<h2>预制演示工程</h2>': '<h2>预置工程</h2>',
+        '五套完整工程已预制：七阶段产物 + 每镜美术首帧 + 真实镜头视频 + 带字幕最终成片。A/C/E 各 7 镜，B/D 各 6 镜，点任意一套即可演示完整流程。':
+            '五套完整工程已预置：七阶段产物 + 每镜美术首帧 + 真实镜头视频 + 带字幕最终成片。A/C/E 各 7 镜，B/D 各 6 镜，点任意一套即可查看完整流程。',
+        '真实生成接口全部保留：切换到「一键制作」即可从一句话创意新建矩阵工程并实际调用模型。':
+            '可查看全部阶段、逐镜视频与最终成片；实时创建、模型生成和配置修改请使用本机完整程序。',
+        '▶ 预制流程演示': '▶ 播放完整流程',
+        '点击节点查看产物 · 预制演示不重新生成': '点击节点查看产物 · 预置内容已就绪',
+        '<!-- 工程详情（演示与制作共用） -->': '<!-- 工程详情 -->',
+    }.items():
+        text = text.replace(old, new)
     text = replace_once(text, '  <main>\n', '''  <main>
-    <div class="static-banner"><b>在线预制演示</b><span>五套工程与全部媒体已静态发布，点击即可查看；不会请求模型、保存数据或产生费用。</span><a href="https://github.com/YGtemple/weihua-short-video-demo" target="_blank" rel="noreferrer">查看 GitHub 仓库 →</a></div>
+    <div class="static-banner"><b>五套预置工程</b><span>全部流程产物与媒体已就绪，点击即可查看；不会请求在线模型或保存修改。</span><a href="https://github.com/YGtemple/weihua-short-video-demo" target="_blank" rel="noreferrer">查看 GitHub 仓库 →</a></div>
 ''', "static banner")
     return text
 
@@ -159,7 +183,7 @@ def main():
         "projects": len(presets),
         "mediaFiles": media_files,
         "mediaBytes": sum(path.stat().st_size for path in (output / "media").rglob("*") if path.is_file()),
-        "limitations": ["只读预制演示", "不执行实时文本/图片/视频生成", "不保存工程或通道配置"],
+        "limitations": ["预置工程静态浏览", "不执行实时文本/图片/视频生成", "不保存工程或通道配置"],
         "generatedAt": datetime.now(timezone.utc).isoformat(),
     }
     (output / "data" / "manifest.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=2), encoding="utf-8")

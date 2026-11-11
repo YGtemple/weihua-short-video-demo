@@ -1,4 +1,4 @@
-/* 卫华短视频流水线：预制演示 + 可视化工作流 + 最终成片 + 一键矩阵制作 */
+/* 卫华短视频流水线：预置工程 + 可视化工作流 + 最终成片 + 一键矩阵制作 */
 const STATIC = window.WEIHUA_STATIC === true;
 const $ = (s) => document.querySelector(s);
 const state = {projects: [], current: null, stage: 'analysis', workflowStage: 'analysis', batchRunning: false, playlist: [], playIndex: 0, from: 'demo', demoRunning: false};
@@ -9,12 +9,12 @@ const wait = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 async function api(path, options = {}) {
   let target = path;
   if (STATIC) {
-    if ((options.method ?? 'GET') !== 'GET') throw new Error('GitHub Pages 在线版为只读预制演示，请使用本机完整程序执行实时生成。');
+    if ((options.method ?? 'GET') !== 'GET') throw new Error('当前在线页面不执行实时生成，请使用本机完整程序。');
     if (path === '/api/health') target = 'data/health.json';
     else if (path === '/api/projects') target = 'data/projects.json';
     else {
       const match = path.match(/^\/api\/projects\/([^/?]+)$/);
-      if (!match) throw new Error('在线静态版不提供此接口');
+      if (!match) throw new Error('在线页面不提供此接口');
       target = `data/projects/${match[1]}.json`;
     }
   }
@@ -24,7 +24,7 @@ async function api(path, options = {}) {
   return data;
 }
 const post = (path, body) => STATIC
-  ? Promise.resolve(alert('GitHub Pages 在线版为只读预制演示；实时创建与生成请运行本机完整程序。'))
+  ? Promise.resolve(alert('当前在线页面不执行实时创建与生成，请运行本机完整程序。'))
   : api(path, {method: 'POST', body: JSON.stringify(body ?? {})});
 const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'}[c]));
 
@@ -61,7 +61,7 @@ async function boot() {
     $('#runBtn').classList.add('hidden');
     $('#runAllBtn').classList.add('hidden');
     $('#wfCreateBtn').disabled = true;
-    $('#wfCreateBtn').textContent = '在线版为只读演示';
+    $('#wfCreateBtn').textContent = '预置工程已就绪';
     $('#createBtn').disabled = true;
   } else setInterval(tick, 4000);
   const params = new URLSearchParams(location.search);
@@ -101,7 +101,7 @@ function renderPresets() {
   $('#presetGrid').innerHTML = presets.map((p) => `
     <div class="preset" data-id="${p.id}">
       <div class="cover">${p.cover ? `<img src="${p.cover}" alt="${esc(p.title)}">` : ''}
-        <div class="play">▶ 进入演示</div></div>
+        <div class="play">▶ 进入工程</div></div>
       <div class="body"><h3>${esc(p.title)}</h3>
         <p class="muted">${esc(p.brief)}</p>
         <div class="chips"><span class="chip">${esc(p.style)}</span><span class="chip">${p.shotCount} 镜</span>
@@ -169,7 +169,7 @@ async function loadProject(id, from = null, targetView = null) {
 function stageHeader(p, s, extra = '') {
   const st = p.stages[s];
   const label = STAGES.find((x) => x.id === s)?.label ?? s;
-  const controls = STATIC ? '<span class="chip teal">已预制 · 只读</span>' : `${extra}<button class="btn small" onclick="run('${p.id}','${s}')">重跑此阶段</button>`;
+  const controls = STATIC ? '<span class="chip teal">内容已就绪</span>' : `${extra}<button class="btn small" onclick="run('${p.id}','${s}')">重跑此阶段</button>`;
   return `<div class="stage-title"><div><b>${label}</b> <span class="muted">${st ? st.status : '未执行'}</span></div>
     <div class="row">${controls}</div></div>`;
 }
@@ -271,7 +271,7 @@ function renderWorkflow() {
   if (!p || $('#view-workflow').classList.contains('hidden')) return;
   $('#wfProject').innerHTML = state.projects.map((x) => `<option value="${x.id}" ${x.id === p.id ? 'selected' : ''}>${x.preset ? `[预制 ${x.presetKey}] ` : ''}${esc(x.title)}</option>`).join('');
   if (document.activeElement !== $('#wfBrief')) $('#wfBrief').value = p.brief;
-  $('#wfProjectMeta').textContent = `${p.title} · ${p.shotPrompts?.length ?? 0} 镜 · ${p.preset ? '预制演示数据' : '真实流程工程'}`;
+  $('#wfProjectMeta').textContent = `${p.title} · ${p.shotPrompts?.length ?? 0} 镜 · ${p.preset ? '预置工程数据' : '真实流程工程'}`;
   const nodes = [{id: 'input', label: '一句话创意'}, ...STAGES.map((s) => ({id: s.id, label: s.label})), {id: 'final', label: '最终成片'}];
   $('#flowNodes').innerHTML = nodes.map((n, i) => {
     const done = n.id === 'input' || (n.id === 'final' ? p.final?.status === 'done' : p.stages[n.id]?.status === 'done');
@@ -285,16 +285,16 @@ function renderWorkflow() {
   } else $('#wfStageContent').innerHTML = stageMarkup(p, state.workflowStage, 'workflow');
 }
 async function runWorkflowDemo() {
-  if (!state.current?.preset) return alert('预制流程演示请选择 A–E 预制工程；自建工程请点击一键跑全流程');
+  if (!state.current?.preset) return alert('播放完整流程请选择 A–E 预置工程；自建工程请点击一键跑全流程');
   if (state.demoRunning) return;
   state.demoRunning = true;
-  $('#wfDemoBtn').textContent = '演示进行中…';
+  $('#wfDemoBtn').textContent = '流程播放中…';
   for (const id of ['input', ...STAGES.map((s) => s.id), 'final']) {
     state.workflowStage = id;
     renderWorkflow();
     await wait(650);
   }
-  $('#wfDemoBtn').textContent = '▶ 预制流程演示';
+  $('#wfDemoBtn').textContent = '▶ 播放完整流程';
   state.demoRunning = false;
 }
 
