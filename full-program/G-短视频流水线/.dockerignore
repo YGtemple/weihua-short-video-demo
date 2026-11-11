@@ -1,0 +1,11 @@
+.git
+node_modules
+config.local.json
+*.log
+*.tmp
+data/projects/*
+!data/projects/p_mwajj9mj_gog4c
+!data/projects/p_mwajj9n7_t1q2x
+!data/projects/p_mwajj9nq_hgoti
+!data/projects/p_mwajj9nu_mh5o0
+!data/projects/p_mwajj9nz_1953r

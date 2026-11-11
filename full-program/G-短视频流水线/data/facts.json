@@ -1,0 +1,36 @@
+{
+  "version": "2026-11-10",
+  "note": "模板引擎与 LLM 提示词共用的事实库。只有 here 列出的参数允许进入剧本；类比必须标注估算与非实测。",
+  "products": [
+    {
+      "id": "gantry-3800t",
+      "keywords": ["3800", "门机", "门式", "大国重器", "海风", "母港"],
+      "name": "3800t-107m 双主梁门式起重机",
+      "claims": [
+        {"text": "总起重量 3800 吨", "source": "https://www.cranewh.com/detail/5679.html"},
+        {"text": "起升高度 130 米", "source": "https://www.cranewh.com/detail/5679.html"},
+        {"text": "整机总高 166.5 米", "source": "https://www.cranewh.com/detail/5679.html"},
+        {"text": "空中分段翻身 1900 吨", "source": "https://www.cranewh.com/detail/5739.html"},
+        {"text": "上下双小车，单个小车起升能力 1900 吨", "source": "https://www.cranewh.com/detail/5679.html"}
+      ],
+      "analogies": [
+        {"text": "类比≈2500 辆小轿车", "note": "按 1.5 吨/辆估算，非实测"},
+        {"text": "类比≈43 层楼", "note": "按 3 米/层估算，非实测"}
+      ],
+      "warnings": ["107m 仅作为型号组成保留，不解释为跨度", "类比必须带估算基准与非实测角注"]
+    },
+    {
+      "id": "new-chinese",
+      "keywords": ["新中式", "桥机", "桥式", "矮", "节能", "轻量化"],
+      "name": "新中式系列起重机",
+      "claims": [
+        {"text": "相比传统起重机高度降低 30%", "source": "http://craneweihua.com/findnews/183"},
+        {"text": "相比传统起重机重量降低 25%", "source": "http://craneweihua.com/findnews/183"},
+        {"text": "综合能耗降低 20%", "source": "http://craneweihua.com/findnews/183"},
+        {"text": "噪音降低 20 分贝", "source": "http://craneweihua.com/findnews/183"}
+      ],
+      "analogies": [],
+      "warnings": ["与 3800t 门机是两条不同产品线，不可并置为同一台设备", "对外使用 30% 口径前需品牌/市场签核"]
+    }
+  ]
+}

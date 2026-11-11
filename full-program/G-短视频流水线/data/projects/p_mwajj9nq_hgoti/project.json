@@ -1,0 +1,627 @@
+{
+  "id": "p_mwajj9nq_hgoti",
+  "title": "新中式 · 低 30% 的底气",
+  "brief": "卫华新中式起重机产品片，突出较传统起重机高度降低约30%（对外口径待签核）",
+  "style": "工业史诗",
+  "ratio": "16:9",
+  "durationTarget": 64,
+  "sceneCount": 7,
+  "variant": 1,
+  "createdAt": "2026-11-10T10:21:58.311Z",
+  "status": "complete",
+  "stages": {
+    "analysis": {
+      "status": "done",
+      "finishedAt": "2026-11-10T10:21:58.312Z"
+    },
+    "script": {
+      "status": "done",
+      "finishedAt": "2026-11-10T10:21:58.312Z"
+    },
+    "artPrompts": {
+      "status": "done",
+      "finishedAt": "2026-11-10T10:21:58.312Z"
+    },
+    "storyboard": {
+      "status": "done",
+      "finishedAt": "2026-11-10T10:21:58.312Z"
+    },
+    "shotPrompts": {
+      "status": "done",
+      "finishedAt": "2026-11-10T10:21:58.312Z"
+    },
+    "assets": {
+      "status": "done",
+      "finishedAt": "2026-11-10T11:15:30.589Z"
+    },
+    "pack": {
+      "status": "done",
+      "finishedAt": "2026-11-10T11:15:30.589Z"
+    }
+  },
+  "logs": [
+    {
+      "at": "2026-11-10T10:21:58.312Z",
+      "stage": "preset",
+      "message": "预置工程已创建，等待美术与视频回填"
+    },
+    {
+      "at": "2026-11-10T11:15:30.589Z",
+      "stage": "preset",
+      "message": "预置资产回填：美术 6/6，视频 6/6"
+    },
+    {
+      "at": "2026-11-10T11:31:03.639Z",
+      "stage": "preset",
+      "message": "差异化升级：7 镜，目标成片 64 秒"
+    },
+    {
+      "at": "2026-11-10T11:50:15.260Z",
+      "stage": "final",
+      "message": "最终成片已合成：7 镜，64.267 秒，带字幕 MP4"
+    }
+  ],
+  "analysis": {
+    "theme": "新中式 · 低 30% 的底气",
+    "audience": "集团领导、客户与评审评委",
+    "hook": "厂房不够高，起重机就进不去吗？",
+    "keyMessage": [
+      "厂房不够高 起重机怎么进",
+      "新中式系列 整机高度降低",
+      "高度降低约 30% 口径待签核",
+      "紧凑结构 释放净空",
+      "既有厂房 平稳起吊",
+      "卫华新中式 让空间不设限"
+    ],
+    "tone": "工业史诗",
+    "visualStyle": "工业史诗电影感，写实摄影，暖橙与钢青对比，尘雾与体积光，16:9 横版，画面中不出现任何文字、字母、数字、商标、logo、水印",
+    "constraints": [
+      "参数仅来自事实库，类比换算标注估算基准与非实测",
+      "新中式 30% 对外口径未签核，稿件标注待签核",
+      "AI 生成画面不含文字与商标，品牌字由后期合成"
+    ],
+    "source": "preset"
+  },
+  "script": {
+    "title": "新中式 · 低 30% 的底气",
+    "totalSeconds": 64,
+    "scenes": [
+      {
+        "id": "SC01",
+        "title": "低净空难题",
+        "seconds": 10,
+        "narration": "厂房不够高，起重机就进不去吗？",
+        "subtitle": "厂房不够高\n起重机怎么进",
+        "visual": "低净空厂房内部，顶部空间有限",
+        "act": "预设"
+      },
+      {
+        "id": "SC02",
+        "title": "新中式登场",
+        "seconds": 10,
+        "narration": "新中式系列，把整机高度降下来。",
+        "subtitle": "新中式系列\n整机高度降低",
+        "visual": "结构紧凑的新型桥式起重机",
+        "act": "预设"
+      },
+      {
+        "id": "SC03",
+        "title": "数字对比",
+        "seconds": 10,
+        "narration": "较传统起重机高度降低约30%，对外发布口径以品牌部签核为准。",
+        "subtitle": "高度降低约 30%\n口径待签核",
+        "visual": "新旧两台起重机轮廓对比",
+        "act": "预设"
+      },
+      {
+        "id": "SC04",
+        "title": "结构细节",
+        "seconds": 10,
+        "narration": "紧凑型结构，把每一厘米都用在有效空间里。",
+        "subtitle": "紧凑结构\n释放净空",
+        "visual": "主梁与端梁连接细节",
+        "act": "预设"
+      },
+      {
+        "id": "SC05",
+        "title": "实际运行",
+        "seconds": 10,
+        "narration": "在既有厂房里，也能平稳起吊。",
+        "subtitle": "既有厂房\n平稳起吊",
+        "visual": "低净空厂房内平稳吊运",
+        "act": "预设"
+      },
+      {
+        "id": "SC06",
+        "title": "品牌收束",
+        "seconds": 10,
+        "narration": "卫华新中式，让空间不再成为限制。",
+        "subtitle": "卫华新中式\n让空间不设限",
+        "visual": "厂房门口逆光收束",
+        "act": "预设"
+      },
+      {
+        "id": "SC07",
+        "title": "品牌收束",
+        "seconds": 4,
+        "narration": "卫华集团。",
+        "subtitle": "卫华集团\nAI 生成 · 内部预览",
+        "visual": "尾镜场景暗化，品牌文字后期排版，定格收束",
+        "act": "收束"
+      }
+    ]
+  },
+  "artPrompts": [
+    {
+      "assetId": "A01",
+      "name": "SC01 低净空难题",
+      "type": "背景",
+      "prompt": "低净空工业厂房内部，顶部梁架压迫感，工业史诗电影感，写实摄影，暖橙与钢青对比，尘雾与体积光，16:9 横版，画面中不出现任何文字、字母、数字、商标、logo、水印",
+      "negative": "no text, no letters, no digits, no logos, no watermark",
+      "size": "1600x900",
+      "sceneIds": [
+        "SC01"
+      ]
+    },
+    {
+      "assetId": "A02",
+      "name": "SC02 新中式登场",
+      "type": "背景",
+      "prompt": "结构紧凑的现代桥式起重机，线条简洁，工业史诗电影感，写实摄影，暖橙与钢青对比，尘雾与体积光，16:9 横版，画面中不出现任何文字、字母、数字、商标、logo、水印",
+      "negative": "no text, no letters, no digits, no logos, no watermark",
+      "size": "1600x900",
+      "sceneIds": [
+        "SC02"
+      ]
+    },
+    {
+      "assetId": "A03",
+      "name": "SC03 数字对比",
+      "type": "背景",
+      "prompt": "两台不同高度的工业起重机并置对比，工业史诗电影感，写实摄影，暖橙与钢青对比，尘雾与体积光，16:9 横版，画面中不出现任何文字、字母、数字、商标、logo、水印",
+      "negative": "no text, no letters, no digits, no logos, no watermark",
+      "size": "1600x900",
+      "sceneIds": [
+        "SC03"
+      ]
+    },
+    {
+      "assetId": "A04",
+      "name": "SC04 结构细节",
+      "type": "背景",
+      "prompt": "起重机主梁与端梁连接部位特写，焊缝与螺栓，工业史诗电影感，写实摄影，暖橙与钢青对比，尘雾与体积光，16:9 横版，画面中不出现任何文字、字母、数字、商标、logo、水印",
+      "negative": "no text, no letters, no digits, no logos, no watermark",
+      "size": "1600x900",
+      "sceneIds": [
+        "SC04"
+      ]
+    },
+    {
+      "assetId": "A05",
+      "name": "SC05 实际运行",
+      "type": "背景",
+      "prompt": "低净空厂房内起重机平稳吊运工件，工业史诗电影感，写实摄影，暖橙与钢青对比，尘雾与体积光，16:9 横版，画面中不出现任何文字、字母、数字、商标、logo、水印",
+      "negative": "no text, no letters, no digits, no logos, no watermark",
+      "size": "1600x900",
+      "sceneIds": [
+        "SC05"
+      ]
+    },
+    {
+      "assetId": "A06",
+      "name": "SC06 品牌收束",
+      "type": "背景",
+      "prompt": "厂房大门逆光，起重机剪影，工业史诗电影感，写实摄影，暖橙与钢青对比，尘雾与体积光，16:9 横版，画面中不出现任何文字、字母、数字、商标、logo、水印",
+      "negative": "no text, no letters, no digits, no logos, no watermark",
+      "size": "1600x900",
+      "sceneIds": [
+        "SC06"
+      ]
+    },
+    {
+      "assetId": "A07",
+      "name": "SC07 品牌收束",
+      "type": "落板",
+      "prompt": "以既有尾镜美术为底图，暗化背景并由后期排版品牌文字，不生成或仿造官方 Logo",
+      "negative": "no unofficial logo, no watermark",
+      "size": "1600x900",
+      "sceneIds": [
+        "SC07"
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "assetId": "A01",
+      "status": "done",
+      "path": "C:\\Users\\temple\\AppData\\Local\\Doubao\\User Data\\Profile 3\\.doubao\\agent_mode\\workspace\\.sessions\\38452860922789634\\agents\\m_0cwe35TJ0Ab\\repo\\weihua-hackathon\\G-短视频流水线\\data\\projects\\p_mwajj9nq_hgoti\\assets\\A01.png",
+      "url": "/files/p_mwajj9nq_hgoti/assets/A01.png",
+      "error": null,
+      "updatedAt": "2026-11-10T11:15:21.857Z"
+    },
+    {
+      "assetId": "A02",
+      "status": "done",
+      "path": "C:\\Users\\temple\\AppData\\Local\\Doubao\\User Data\\Profile 3\\.doubao\\agent_mode\\workspace\\.sessions\\38452860922789634\\agents\\m_0cwe35TJ0Ab\\repo\\weihua-hackathon\\G-短视频流水线\\data\\projects\\p_mwajj9nq_hgoti\\assets\\A02.png",
+      "url": "/files/p_mwajj9nq_hgoti/assets/A02.png",
+      "error": null,
+      "updatedAt": "2026-11-10T11:15:23.621Z"
+    },
+    {
+      "assetId": "A03",
+      "status": "done",
+      "path": "C:\\Users\\temple\\AppData\\Local\\Doubao\\User Data\\Profile 3\\.doubao\\agent_mode\\workspace\\.sessions\\38452860922789634\\agents\\m_0cwe35TJ0Ab\\repo\\weihua-hackathon\\G-短视频流水线\\data\\projects\\p_mwajj9nq_hgoti\\assets\\A03.png",
+      "url": "/files/p_mwajj9nq_hgoti/assets/A03.png",
+      "error": null,
+      "updatedAt": "2026-11-10T11:15:24.880Z"
+    },
+    {
+      "assetId": "A04",
+      "status": "done",
+      "path": "C:\\Users\\temple\\AppData\\Local\\Doubao\\User Data\\Profile 3\\.doubao\\agent_mode\\workspace\\.sessions\\38452860922789634\\agents\\m_0cwe35TJ0Ab\\repo\\weihua-hackathon\\G-短视频流水线\\data\\projects\\p_mwajj9nq_hgoti\\assets\\A04.png",
+      "url": "/files/p_mwajj9nq_hgoti/assets/A04.png",
+      "error": null,
+      "updatedAt": "2026-11-10T11:15:26.528Z"
+    },
+    {
+      "assetId": "A05",
+      "status": "done",
+      "path": "C:\\Users\\temple\\AppData\\Local\\Doubao\\User Data\\Profile 3\\.doubao\\agent_mode\\workspace\\.sessions\\38452860922789634\\agents\\m_0cwe35TJ0Ab\\repo\\weihua-hackathon\\G-短视频流水线\\data\\projects\\p_mwajj9nq_hgoti\\assets\\A05.png",
+      "url": "/files/p_mwajj9nq_hgoti/assets/A05.png",
+      "error": null,
+      "updatedAt": "2026-11-10T11:15:28.040Z"
+    },
+    {
+      "assetId": "A06",
+      "status": "done",
+      "path": "C:\\Users\\temple\\AppData\\Local\\Doubao\\User Data\\Profile 3\\.doubao\\agent_mode\\workspace\\.sessions\\38452860922789634\\agents\\m_0cwe35TJ0Ab\\repo\\weihua-hackathon\\G-短视频流水线\\data\\projects\\p_mwajj9nq_hgoti\\assets\\A06.png",
+      "url": "/files/p_mwajj9nq_hgoti/assets/A06.png",
+      "error": null,
+      "updatedAt": "2026-11-10T11:15:29.786Z"
+    },
+    {
+      "assetId": "A07",
+      "status": "done",
+      "path": "C:\\Users\\temple\\AppData\\Local\\Doubao\\User Data\\Profile 3\\.doubao\\agent_mode\\workspace\\.sessions\\38452860922789634\\agents\\m_0cwe35TJ0Ab\\repo\\weihua-hackathon\\G-短视频流水线\\data\\projects\\p_mwajj9nq_hgoti\\assets\\A07.png",
+      "url": "/files/p_mwajj9nq_hgoti/assets/A07.png",
+      "error": null,
+      "updatedAt": "2026-11-10T11:31:02.524Z"
+    }
+  ],
+  "storyboard": [
+    {
+      "shotId": "SH01",
+      "sceneId": "SC01",
+      "seconds": 10,
+      "framing": "全景/特写",
+      "camera": "低机位前推",
+      "action": "灯光逐排点亮",
+      "subtitle": "厂房不够高\n起重机怎么进",
+      "assetIds": [
+        "A01"
+      ],
+      "transition": "切"
+    },
+    {
+      "shotId": "SH02",
+      "sceneId": "SC02",
+      "seconds": 10,
+      "framing": "全景/特写",
+      "camera": "环绕展示",
+      "action": "小车沿主梁缓慢移动",
+      "subtitle": "新中式系列\n整机高度降低",
+      "assetIds": [
+        "A02"
+      ],
+      "transition": "切"
+    },
+    {
+      "shotId": "SH03",
+      "sceneId": "SC03",
+      "seconds": 10,
+      "framing": "全景/特写",
+      "camera": "固定机位",
+      "action": "镜头缓慢横移对比",
+      "subtitle": "高度降低约 30%\n口径待签核",
+      "assetIds": [
+        "A03"
+      ],
+      "transition": "切"
+    },
+    {
+      "shotId": "SH04",
+      "sceneId": "SC04",
+      "seconds": 10,
+      "framing": "全景/特写",
+      "camera": "微距横移",
+      "action": "光影扫过金属表面",
+      "subtitle": "紧凑结构\n释放净空",
+      "assetIds": [
+        "A04"
+      ],
+      "transition": "切"
+    },
+    {
+      "shotId": "SH05",
+      "sceneId": "SC05",
+      "seconds": 10,
+      "framing": "全景/特写",
+      "camera": "跟拍",
+      "action": "吊具平稳前行",
+      "subtitle": "既有厂房\n平稳起吊",
+      "assetIds": [
+        "A05"
+      ],
+      "transition": "切"
+    },
+    {
+      "shotId": "SH06",
+      "sceneId": "SC06",
+      "seconds": 10,
+      "framing": "全景/特写",
+      "camera": "缓慢拉远",
+      "action": "光线渐亮",
+      "subtitle": "卫华新中式\n让空间不设限",
+      "assetIds": [
+        "A06"
+      ],
+      "transition": "切"
+    },
+    {
+      "shotId": "SH07",
+      "sceneId": "SC07",
+      "seconds": 4,
+      "framing": "品牌落板",
+      "camera": "固定机位",
+      "action": "背景轻微推近，品牌文字定格",
+      "subtitle": "卫华集团\nAI 生成 · 内部预览",
+      "assetIds": [
+        "A07"
+      ],
+      "transition": "淡入淡出"
+    }
+  ],
+  "shotPrompts": [
+    {
+      "shotId": "SH01",
+      "sceneId": "SC01",
+      "duration": 10,
+      "ratio": "16:9",
+      "videoPrompt": "低净空厂房内部，顶部空间有限。镜头：低机位前推。动作：灯光逐排点亮。画面无文字、字母、数字、商标、水印。",
+      "negativePrompt": "no text, no letters, no digits, no logos, no watermark",
+      "firstFrame": "/files/p_mwajj9nq_hgoti/assets/A01.png",
+      "subtitle": "厂房不够高\n起重机怎么进",
+      "narration": "厂房不够高，起重机就进不去吗？"
+    },
+    {
+      "shotId": "SH02",
+      "sceneId": "SC02",
+      "duration": 10,
+      "ratio": "16:9",
+      "videoPrompt": "结构紧凑的新型桥式起重机。镜头：环绕展示。动作：小车沿主梁缓慢移动。画面无文字、字母、数字、商标、水印。",
+      "negativePrompt": "no text, no letters, no digits, no logos, no watermark",
+      "firstFrame": "/files/p_mwajj9nq_hgoti/assets/A02.png",
+      "subtitle": "新中式系列\n整机高度降低",
+      "narration": "新中式系列，把整机高度降下来。"
+    },
+    {
+      "shotId": "SH03",
+      "sceneId": "SC03",
+      "duration": 10,
+      "ratio": "16:9",
+      "videoPrompt": "新旧两台起重机轮廓对比。镜头：固定机位。动作：镜头缓慢横移对比。画面无文字、字母、数字、商标、水印。",
+      "negativePrompt": "no text, no letters, no digits, no logos, no watermark",
+      "firstFrame": "/files/p_mwajj9nq_hgoti/assets/A03.png",
+      "subtitle": "高度降低约 30%\n口径待签核",
+      "narration": "较传统起重机高度降低约30%，对外发布口径以品牌部签核为准。"
+    },
+    {
+      "shotId": "SH04",
+      "sceneId": "SC04",
+      "duration": 10,
+      "ratio": "16:9",
+      "videoPrompt": "主梁与端梁连接细节。镜头：微距横移。动作：光影扫过金属表面。画面无文字、字母、数字、商标、水印。",
+      "negativePrompt": "no text, no letters, no digits, no logos, no watermark",
+      "firstFrame": "/files/p_mwajj9nq_hgoti/assets/A04.png",
+      "subtitle": "紧凑结构\n释放净空",
+      "narration": "紧凑型结构，把每一厘米都用在有效空间里。"
+    },
+    {
+      "shotId": "SH05",
+      "sceneId": "SC05",
+      "duration": 10,
+      "ratio": "16:9",
+      "videoPrompt": "低净空厂房内平稳吊运。镜头：跟拍。动作：吊具平稳前行。画面无文字、字母、数字、商标、水印。",
+      "negativePrompt": "no text, no letters, no digits, no logos, no watermark",
+      "firstFrame": "/files/p_mwajj9nq_hgoti/assets/A05.png",
+      "subtitle": "既有厂房\n平稳起吊",
+      "narration": "在既有厂房里，也能平稳起吊。"
+    },
+    {
+      "shotId": "SH06",
+      "sceneId": "SC06",
+      "duration": 10,
+      "ratio": "16:9",
+      "videoPrompt": "厂房门口逆光收束。镜头：缓慢拉远。动作：光线渐亮。画面无文字、字母、数字、商标、水印。",
+      "negativePrompt": "no text, no letters, no digits, no logos, no watermark",
+      "firstFrame": "/files/p_mwajj9nq_hgoti/assets/A06.png",
+      "subtitle": "卫华新中式\n让空间不设限",
+      "narration": "卫华新中式，让空间不再成为限制。"
+    },
+    {
+      "shotId": "SH07",
+      "sceneId": "SC07",
+      "duration": 4,
+      "ratio": "16:9",
+      "videoPrompt": "既有尾镜暗化，固定机位，品牌文字后期合成，4 秒静态落板。",
+      "negativePrompt": "no unofficial logo, no watermark",
+      "firstFrame": "/files/p_mwajj9nq_hgoti/assets/A07.png",
+      "subtitle": "卫华集团\nAI 生成 · 内部预览",
+      "narration": "卫华集团。"
+    }
+  ],
+  "pack": {
+    "schema": "weihua.video-task-pack/v1",
+    "project": {
+      "id": "p_mwajj9nq_hgoti",
+      "title": "新中式 · 低 30% 的底气",
+      "style": "工业史诗",
+      "ratio": "16:9"
+    },
+    "shots": [
+      {
+        "shot_id": "SH01",
+        "duration_seconds": 10,
+        "ratio": "16:9",
+        "prompt": "低净空厂房内部，顶部空间有限。镜头：低机位前推。动作：灯光逐排点亮。画面无文字、字母、数字、商标、水印。",
+        "negative_prompt": "no text, no letters, no digits, no logos, no watermark",
+        "first_frame": "/files/p_mwajj9nq_hgoti/assets/A01.png",
+        "subtitle": "厂房不够高\n起重机怎么进",
+        "narration": "厂房不够高，起重机就进不去吗？",
+        "status": "ready",
+        "video": "/files/p_mwajj9nq_hgoti/videos/SH01.mp4"
+      },
+      {
+        "shot_id": "SH02",
+        "duration_seconds": 10,
+        "ratio": "16:9",
+        "prompt": "结构紧凑的新型桥式起重机。镜头：环绕展示。动作：小车沿主梁缓慢移动。画面无文字、字母、数字、商标、水印。",
+        "negative_prompt": "no text, no letters, no digits, no logos, no watermark",
+        "first_frame": "/files/p_mwajj9nq_hgoti/assets/A02.png",
+        "subtitle": "新中式系列\n整机高度降低",
+        "narration": "新中式系列，把整机高度降下来。",
+        "status": "ready",
+        "video": "/files/p_mwajj9nq_hgoti/videos/SH02.mp4"
+      },
+      {
+        "shot_id": "SH03",
+        "duration_seconds": 10,
+        "ratio": "16:9",
+        "prompt": "新旧两台起重机轮廓对比。镜头：固定机位。动作：镜头缓慢横移对比。画面无文字、字母、数字、商标、水印。",
+        "negative_prompt": "no text, no letters, no digits, no logos, no watermark",
+        "first_frame": "/files/p_mwajj9nq_hgoti/assets/A03.png",
+        "subtitle": "高度降低约 30%\n口径待签核",
+        "narration": "较传统起重机高度降低约30%，对外发布口径以品牌部签核为准。",
+        "status": "ready",
+        "video": "/files/p_mwajj9nq_hgoti/videos/SH03.mp4"
+      },
+      {
+        "shot_id": "SH04",
+        "duration_seconds": 10,
+        "ratio": "16:9",
+        "prompt": "主梁与端梁连接细节。镜头：微距横移。动作：光影扫过金属表面。画面无文字、字母、数字、商标、水印。",
+        "negative_prompt": "no text, no letters, no digits, no logos, no watermark",
+        "first_frame": "/files/p_mwajj9nq_hgoti/assets/A04.png",
+        "subtitle": "紧凑结构\n释放净空",
+        "narration": "紧凑型结构，把每一厘米都用在有效空间里。",
+        "status": "ready",
+        "video": "/files/p_mwajj9nq_hgoti/videos/SH04.mp4"
+      },
+      {
+        "shot_id": "SH05",
+        "duration_seconds": 10,
+        "ratio": "16:9",
+        "prompt": "低净空厂房内平稳吊运。镜头：跟拍。动作：吊具平稳前行。画面无文字、字母、数字、商标、水印。",
+        "negative_prompt": "no text, no letters, no digits, no logos, no watermark",
+        "first_frame": "/files/p_mwajj9nq_hgoti/assets/A05.png",
+        "subtitle": "既有厂房\n平稳起吊",
+        "narration": "在既有厂房里，也能平稳起吊。",
+        "status": "ready",
+        "video": "/files/p_mwajj9nq_hgoti/videos/SH05.mp4"
+      },
+      {
+        "shot_id": "SH06",
+        "duration_seconds": 10,
+        "ratio": "16:9",
+        "prompt": "厂房门口逆光收束。镜头：缓慢拉远。动作：光线渐亮。画面无文字、字母、数字、商标、水印。",
+        "negative_prompt": "no text, no letters, no digits, no logos, no watermark",
+        "first_frame": "/files/p_mwajj9nq_hgoti/assets/A06.png",
+        "subtitle": "卫华新中式\n让空间不设限",
+        "narration": "卫华新中式，让空间不再成为限制。",
+        "status": "ready",
+        "video": "/files/p_mwajj9nq_hgoti/videos/SH06.mp4"
+      },
+      {
+        "shot_id": "SH07",
+        "duration_seconds": 4,
+        "ratio": "16:9",
+        "prompt": "既有尾镜暗化，固定机位，品牌文字后期合成，4 秒静态落板。",
+        "negative_prompt": "no unofficial logo, no watermark",
+        "first_frame": "/files/p_mwajj9nq_hgoti/assets/A07.png",
+        "subtitle": "卫华集团\nAI 生成 · 内部预览",
+        "narration": "卫华集团。",
+        "status": "ready",
+        "video": "/files/p_mwajj9nq_hgoti/videos/SH07.mp4"
+      }
+    ]
+  },
+  "preset": true,
+  "presetKey": "C",
+  "videos": [
+    {
+      "shotId": "SH01",
+      "status": "done",
+      "path": "C:\\Users\\temple\\AppData\\Local\\Doubao\\User Data\\Profile 3\\.doubao\\agent_mode\\workspace\\.sessions\\38452860922789634\\agents\\m_0cwe35TJ0Ab\\repo\\weihua-hackathon\\G-短视频流水线\\data\\projects\\p_mwajj9nq_hgoti\\videos\\SH01.mp4",
+      "url": "/files/p_mwajj9nq_hgoti/videos/SH01.mp4",
+      "seconds": 10,
+      "error": null
+    },
+    {
+      "shotId": "SH02",
+      "status": "done",
+      "path": "C:\\Users\\temple\\AppData\\Local\\Doubao\\User Data\\Profile 3\\.doubao\\agent_mode\\workspace\\.sessions\\38452860922789634\\agents\\m_0cwe35TJ0Ab\\repo\\weihua-hackathon\\G-短视频流水线\\data\\projects\\p_mwajj9nq_hgoti\\videos\\SH02.mp4",
+      "url": "/files/p_mwajj9nq_hgoti/videos/SH02.mp4",
+      "seconds": 10,
+      "error": null
+    },
+    {
+      "shotId": "SH03",
+      "status": "done",
+      "path": "C:\\Users\\temple\\AppData\\Local\\Doubao\\User Data\\Profile 3\\.doubao\\agent_mode\\workspace\\.sessions\\38452860922789634\\agents\\m_0cwe35TJ0Ab\\repo\\weihua-hackathon\\G-短视频流水线\\data\\projects\\p_mwajj9nq_hgoti\\videos\\SH03.mp4",
+      "url": "/files/p_mwajj9nq_hgoti/videos/SH03.mp4",
+      "seconds": 10,
+      "error": null
+    },
+    {
+      "shotId": "SH04",
+      "status": "done",
+      "path": "C:\\Users\\temple\\AppData\\Local\\Doubao\\User Data\\Profile 3\\.doubao\\agent_mode\\workspace\\.sessions\\38452860922789634\\agents\\m_0cwe35TJ0Ab\\repo\\weihua-hackathon\\G-短视频流水线\\data\\projects\\p_mwajj9nq_hgoti\\videos\\SH04.mp4",
+      "url": "/files/p_mwajj9nq_hgoti/videos/SH04.mp4",
+      "seconds": 10,
+      "error": null
+    },
+    {
+      "shotId": "SH05",
+      "status": "done",
+      "path": "C:\\Users\\temple\\AppData\\Local\\Doubao\\User Data\\Profile 3\\.doubao\\agent_mode\\workspace\\.sessions\\38452860922789634\\agents\\m_0cwe35TJ0Ab\\repo\\weihua-hackathon\\G-短视频流水线\\data\\projects\\p_mwajj9nq_hgoti\\videos\\SH05.mp4",
+      "url": "/files/p_mwajj9nq_hgoti/videos/SH05.mp4",
+      "seconds": 10,
+      "error": null
+    },
+    {
+      "shotId": "SH06",
+      "status": "done",
+      "path": "C:\\Users\\temple\\AppData\\Local\\Doubao\\User Data\\Profile 3\\.doubao\\agent_mode\\workspace\\.sessions\\38452860922789634\\agents\\m_0cwe35TJ0Ab\\repo\\weihua-hackathon\\G-短视频流水线\\data\\projects\\p_mwajj9nq_hgoti\\videos\\SH06.mp4",
+      "url": "/files/p_mwajj9nq_hgoti/videos/SH06.mp4",
+      "seconds": 10,
+      "error": null
+    },
+    {
+      "shotId": "SH07",
+      "status": "done",
+      "path": "C:\\Users\\temple\\AppData\\Local\\Doubao\\User Data\\Profile 3\\.doubao\\agent_mode\\workspace\\.sessions\\38452860922789634\\agents\\m_0cwe35TJ0Ab\\repo\\weihua-hackathon\\G-短视频流水线\\data\\projects\\p_mwajj9nq_hgoti\\videos\\SH07.mp4",
+      "url": "/files/p_mwajj9nq_hgoti/videos/SH07.mp4",
+      "seconds": 4,
+      "error": null
+    }
+  ],
+  "final": {
+    "status": "done",
+    "path": "final.mp4",
+    "url": "/files/p_mwajj9nq_hgoti/final.mp4",
+    "seconds": 64.266667,
+    "width": 1280,
+    "height": 720,
+    "updatedAt": "2026-11-10T11:50:15.260Z"
+  }
+}

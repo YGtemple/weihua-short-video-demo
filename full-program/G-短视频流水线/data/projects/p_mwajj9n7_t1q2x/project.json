@@ -1,0 +1,555 @@
+{
+  "id": "p_mwajj9n7_t1q2x",
+  "title": "工业科普 · 把 3800 吨放进日常尺度",
+  "brief": "超大起重机科普可视化片，用日常参照物解释3800吨与130米",
+  "style": "产品科普",
+  "ratio": "16:9",
+  "durationTarget": 60,
+  "sceneCount": 6,
+  "variant": 1,
+  "createdAt": "2026-11-10T10:21:58.292Z",
+  "status": "complete",
+  "stages": {
+    "analysis": {
+      "status": "done",
+      "finishedAt": "2026-11-10T10:21:58.293Z"
+    },
+    "script": {
+      "status": "done",
+      "finishedAt": "2026-11-10T10:21:58.293Z"
+    },
+    "artPrompts": {
+      "status": "done",
+      "finishedAt": "2026-11-10T10:21:58.293Z"
+    },
+    "storyboard": {
+      "status": "done",
+      "finishedAt": "2026-11-10T10:21:58.293Z"
+    },
+    "shotPrompts": {
+      "status": "done",
+      "finishedAt": "2026-11-10T10:21:58.293Z"
+    },
+    "assets": {
+      "status": "done",
+      "finishedAt": "2026-11-10T11:15:20.997Z"
+    },
+    "pack": {
+      "status": "done",
+      "finishedAt": "2026-11-10T11:15:20.997Z"
+    }
+  },
+  "logs": [
+    {
+      "at": "2026-11-10T10:21:58.293Z",
+      "stage": "preset",
+      "message": "预置工程已创建，等待美术与视频回填"
+    },
+    {
+      "at": "2026-11-10T11:15:20.997Z",
+      "stage": "preset",
+      "message": "预置资产回填：美术 6/6，视频 6/6"
+    },
+    {
+      "at": "2026-11-10T11:31:02.521Z",
+      "stage": "preset",
+      "message": "差异化升级：6 镜，目标成片 60 秒"
+    },
+    {
+      "at": "2026-11-10T11:50:15.186Z",
+      "stage": "final",
+      "message": "最终成片已合成：6 镜，60.300 秒，带字幕 MP4"
+    }
+  ],
+  "analysis": {
+    "theme": "工业科普 · 把 3800 吨放进日常尺度",
+    "audience": "集团领导、客户与评审评委",
+    "hook": "3800吨，到底是多重？",
+    "keyMessage": [
+      "3800 吨 到底是多重",
+      "≈2500 辆小轿车 按1.5吨/辆估算",
+      "130 米 ≈ 43 层楼 按3米/层估算",
+      "双小车抬吊 协同保持平稳",
+      "空中分段翻身 1900 吨",
+      "大国重器 每一吨都算得准"
+    ],
+    "tone": "产品科普",
+    "visualStyle": "工业史诗电影感，写实摄影，暖橙与钢青对比，尘雾与体积光，16:9 横版，画面中不出现任何文字、字母、数字、商标、logo、水印",
+    "constraints": [
+      "参数仅来自事实库，类比换算标注估算基准与非实测",
+      "新中式 30% 对外口径未签核，稿件标注待签核",
+      "AI 生成画面不含文字与商标，品牌字由后期合成"
+    ],
+    "source": "preset"
+  },
+  "script": {
+    "title": "工业科普 · 把 3800 吨放进日常尺度",
+    "totalSeconds": 60,
+    "scenes": [
+      {
+        "id": "SC01",
+        "title": "一个问题",
+        "seconds": 10,
+        "narration": "3800吨，到底是多重？",
+        "subtitle": "3800 吨\n到底是多重",
+        "visual": "空旷场地上门机与一个人同框",
+        "act": "预设"
+      },
+      {
+        "id": "SC02",
+        "title": "换成小轿车",
+        "seconds": 10,
+        "narration": "按每辆1.5吨估算，约等于2500辆小轿车同时离地。",
+        "subtitle": "≈2500 辆小轿车\n按1.5吨/辆估算",
+        "visual": "停车场阵列与吊装构件对比",
+        "act": "预设"
+      },
+      {
+        "id": "SC03",
+        "title": "换成楼层",
+        "seconds": 10,
+        "narration": "130米起升高度，按每层3米估算，约43层楼。",
+        "subtitle": "130 米 ≈ 43 层楼\n按3米/层估算",
+        "visual": "门机与城市住宅楼并置",
+        "act": "预设"
+      },
+      {
+        "id": "SC04",
+        "title": "双小车怎么配合",
+        "seconds": 10,
+        "narration": "两套起升机构协同，把长构件保持平稳。",
+        "subtitle": "双小车抬吊\n协同保持平稳",
+        "visual": "双小车同步起吊长构件",
+        "act": "预设"
+      },
+      {
+        "id": "SC05",
+        "title": "空中翻身",
+        "seconds": 10,
+        "narration": "分段构件在空中完成姿态调整，最大1900吨。",
+        "subtitle": "空中分段翻身\n1900 吨",
+        "visual": "巨型构件空中缓慢转向",
+        "act": "预设"
+      },
+      {
+        "id": "SC06",
+        "title": "收束",
+        "seconds": 10,
+        "narration": "看得见的巨物，背后是算得准的每一吨。",
+        "subtitle": "大国重器\n每一吨都算得准",
+        "visual": "门机全景落日收束",
+        "act": "预设"
+      }
+    ]
+  },
+  "artPrompts": [
+    {
+      "assetId": "A01",
+      "name": "SC01 一个问题",
+      "type": "背景",
+      "prompt": "巨型门机与一名工程师同框，强烈尺度对比，工业史诗电影感，写实摄影，暖橙与钢青对比，尘雾与体积光，16:9 横版，画面中不出现任何文字、字母、数字、商标、logo、水印",
+      "negative": "no text, no letters, no digits, no logos, no watermark",
+      "size": "1600x900",
+      "sceneIds": [
+        "SC01"
+      ]
+    },
+    {
+      "assetId": "A02",
+      "name": "SC02 换成小轿车",
+      "type": "背景",
+      "prompt": "整齐排列的小轿车阵列与巨型吊钩同框，工业史诗电影感，写实摄影，暖橙与钢青对比，尘雾与体积光，16:9 横版，画面中不出现任何文字、字母、数字、商标、logo、水印",
+      "negative": "no text, no letters, no digits, no logos, no watermark",
+      "size": "1600x900",
+      "sceneIds": [
+        "SC02"
+      ]
+    },
+    {
+      "assetId": "A03",
+      "name": "SC03 换成楼层",
+      "type": "背景",
+      "prompt": "巨型门机与远处高层住宅楼群并置，晨雾，工业史诗电影感，写实摄影，暖橙与钢青对比，尘雾与体积光，16:9 横版，画面中不出现任何文字、字母、数字、商标、logo、水印",
+      "negative": "no text, no letters, no digits, no logos, no watermark",
+      "size": "1600x900",
+      "sceneIds": [
+        "SC03"
+      ]
+    },
+    {
+      "assetId": "A04",
+      "name": "SC04 双小车怎么配合",
+      "type": "背景",
+      "prompt": "两组吊钩同步吊起长条形钢梁，保持水平，工业史诗电影感，写实摄影，暖橙与钢青对比，尘雾与体积光，16:9 横版，画面中不出现任何文字、字母、数字、商标、logo、水印",
+      "negative": "no text, no letters, no digits, no logos, no watermark",
+      "size": "1600x900",
+      "sceneIds": [
+        "SC04"
+      ]
+    },
+    {
+      "assetId": "A05",
+      "name": "SC05 空中翻身",
+      "type": "背景",
+      "prompt": "巨型构件在吊索下缓慢调整姿态，工人仰望，工业史诗电影感，写实摄影，暖橙与钢青对比，尘雾与体积光，16:9 横版，画面中不出现任何文字、字母、数字、商标、logo、水印",
+      "negative": "no text, no letters, no digits, no logos, no watermark",
+      "size": "1600x900",
+      "sceneIds": [
+        "SC05"
+      ]
+    },
+    {
+      "assetId": "A06",
+      "name": "SC06 收束",
+      "type": "背景",
+      "prompt": "门机全景落日，天空留白，工业史诗电影感，写实摄影，暖橙与钢青对比，尘雾与体积光，16:9 横版，画面中不出现任何文字、字母、数字、商标、logo、水印",
+      "negative": "no text, no letters, no digits, no logos, no watermark",
+      "size": "1600x900",
+      "sceneIds": [
+        "SC06"
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "assetId": "A01",
+      "status": "done",
+      "path": "C:\\Users\\temple\\AppData\\Local\\Doubao\\User Data\\Profile 3\\.doubao\\agent_mode\\workspace\\.sessions\\38452860922789634\\agents\\m_0cwe35TJ0Ab\\repo\\weihua-hackathon\\G-短视频流水线\\data\\projects\\p_mwajj9n7_t1q2x\\assets\\A01.png",
+      "url": "/files/p_mwajj9n7_t1q2x/assets/A01.png",
+      "error": null,
+      "updatedAt": "2026-11-10T11:15:09.530Z"
+    },
+    {
+      "assetId": "A02",
+      "status": "done",
+      "path": "C:\\Users\\temple\\AppData\\Local\\Doubao\\User Data\\Profile 3\\.doubao\\agent_mode\\workspace\\.sessions\\38452860922789634\\agents\\m_0cwe35TJ0Ab\\repo\\weihua-hackathon\\G-短视频流水线\\data\\projects\\p_mwajj9n7_t1q2x\\assets\\A02.png",
+      "url": "/files/p_mwajj9n7_t1q2x/assets/A02.png",
+      "error": null,
+      "updatedAt": "2026-11-10T11:15:11.156Z"
+    },
+    {
+      "assetId": "A03",
+      "status": "done",
+      "path": "C:\\Users\\temple\\AppData\\Local\\Doubao\\User Data\\Profile 3\\.doubao\\agent_mode\\workspace\\.sessions\\38452860922789634\\agents\\m_0cwe35TJ0Ab\\repo\\weihua-hackathon\\G-短视频流水线\\data\\projects\\p_mwajj9n7_t1q2x\\assets\\A03.png",
+      "url": "/files/p_mwajj9n7_t1q2x/assets/A03.png",
+      "error": null,
+      "updatedAt": "2026-11-10T11:15:13.996Z"
+    },
+    {
+      "assetId": "A04",
+      "status": "done",
+      "path": "C:\\Users\\temple\\AppData\\Local\\Doubao\\User Data\\Profile 3\\.doubao\\agent_mode\\workspace\\.sessions\\38452860922789634\\agents\\m_0cwe35TJ0Ab\\repo\\weihua-hackathon\\G-短视频流水线\\data\\projects\\p_mwajj9n7_t1q2x\\assets\\A04.png",
+      "url": "/files/p_mwajj9n7_t1q2x/assets/A04.png",
+      "error": null,
+      "updatedAt": "2026-11-10T11:15:15.556Z"
+    },
+    {
+      "assetId": "A05",
+      "status": "done",
+      "path": "C:\\Users\\temple\\AppData\\Local\\Doubao\\User Data\\Profile 3\\.doubao\\agent_mode\\workspace\\.sessions\\38452860922789634\\agents\\m_0cwe35TJ0Ab\\repo\\weihua-hackathon\\G-短视频流水线\\data\\projects\\p_mwajj9n7_t1q2x\\assets\\A05.png",
+      "url": "/files/p_mwajj9n7_t1q2x/assets/A05.png",
+      "error": null,
+      "updatedAt": "2026-11-10T11:15:17.578Z"
+    },
+    {
+      "assetId": "A06",
+      "status": "done",
+      "path": "C:\\Users\\temple\\AppData\\Local\\Doubao\\User Data\\Profile 3\\.doubao\\agent_mode\\workspace\\.sessions\\38452860922789634\\agents\\m_0cwe35TJ0Ab\\repo\\weihua-hackathon\\G-短视频流水线\\data\\projects\\p_mwajj9n7_t1q2x\\assets\\A06.png",
+      "url": "/files/p_mwajj9n7_t1q2x/assets/A06.png",
+      "error": null,
+      "updatedAt": "2026-11-10T11:15:19.852Z"
+    }
+  ],
+  "storyboard": [
+    {
+      "shotId": "SH01",
+      "sceneId": "SC01",
+      "seconds": 10,
+      "framing": "全景/特写",
+      "camera": "低机位推近",
+      "action": "人物走向门机",
+      "subtitle": "3800 吨\n到底是多重",
+      "assetIds": [
+        "A01"
+      ],
+      "transition": "切"
+    },
+    {
+      "shotId": "SH02",
+      "sceneId": "SC02",
+      "seconds": 10,
+      "framing": "全景/特写",
+      "camera": "俯拍下降",
+      "action": "阵列车辆与吊钩形成对比",
+      "subtitle": "≈2500 辆小轿车\n按1.5吨/辆估算",
+      "assetIds": [
+        "A02"
+      ],
+      "transition": "切"
+    },
+    {
+      "shotId": "SH03",
+      "sceneId": "SC03",
+      "seconds": 10,
+      "framing": "全景/特写",
+      "camera": "横移",
+      "action": "云层掠过主梁",
+      "subtitle": "130 米 ≈ 43 层楼\n按3米/层估算",
+      "assetIds": [
+        "A03"
+      ],
+      "transition": "切"
+    },
+    {
+      "shotId": "SH04",
+      "sceneId": "SC04",
+      "seconds": 10,
+      "framing": "全景/特写",
+      "camera": "侧面固定",
+      "action": "钢梁平稳上升",
+      "subtitle": "双小车抬吊\n协同保持平稳",
+      "assetIds": [
+        "A04"
+      ],
+      "transition": "切"
+    },
+    {
+      "shotId": "SH05",
+      "sceneId": "SC05",
+      "seconds": 10,
+      "framing": "全景/特写",
+      "camera": "环绕",
+      "action": "构件缓慢转动",
+      "subtitle": "空中分段翻身\n1900 吨",
+      "assetIds": [
+        "A05"
+      ],
+      "transition": "切"
+    },
+    {
+      "shotId": "SH06",
+      "sceneId": "SC06",
+      "seconds": 10,
+      "framing": "全景/特写",
+      "camera": "缓慢拉远",
+      "action": "光影渐暗",
+      "subtitle": "大国重器\n每一吨都算得准",
+      "assetIds": [
+        "A06"
+      ],
+      "transition": "切"
+    }
+  ],
+  "shotPrompts": [
+    {
+      "shotId": "SH01",
+      "sceneId": "SC01",
+      "duration": 10,
+      "ratio": "16:9",
+      "videoPrompt": "空旷场地上门机与一个人同框。镜头：低机位推近。动作：人物走向门机。画面无文字、字母、数字、商标、水印。",
+      "negativePrompt": "no text, no letters, no digits, no logos, no watermark",
+      "firstFrame": "/files/p_mwajj9n7_t1q2x/assets/A01.png",
+      "subtitle": "3800 吨\n到底是多重",
+      "narration": "3800吨，到底是多重？"
+    },
+    {
+      "shotId": "SH02",
+      "sceneId": "SC02",
+      "duration": 10,
+      "ratio": "16:9",
+      "videoPrompt": "停车场阵列与吊装构件对比。镜头：俯拍下降。动作：阵列车辆与吊钩形成对比。画面无文字、字母、数字、商标、水印。",
+      "negativePrompt": "no text, no letters, no digits, no logos, no watermark",
+      "firstFrame": "/files/p_mwajj9n7_t1q2x/assets/A02.png",
+      "subtitle": "≈2500 辆小轿车\n按1.5吨/辆估算",
+      "narration": "按每辆1.5吨估算，约等于2500辆小轿车同时离地。"
+    },
+    {
+      "shotId": "SH03",
+      "sceneId": "SC03",
+      "duration": 10,
+      "ratio": "16:9",
+      "videoPrompt": "门机与城市住宅楼并置。镜头：横移。动作：云层掠过主梁。画面无文字、字母、数字、商标、水印。",
+      "negativePrompt": "no text, no letters, no digits, no logos, no watermark",
+      "firstFrame": "/files/p_mwajj9n7_t1q2x/assets/A03.png",
+      "subtitle": "130 米 ≈ 43 层楼\n按3米/层估算",
+      "narration": "130米起升高度，按每层3米估算，约43层楼。"
+    },
+    {
+      "shotId": "SH04",
+      "sceneId": "SC04",
+      "duration": 10,
+      "ratio": "16:9",
+      "videoPrompt": "双小车同步起吊长构件。镜头：侧面固定。动作：钢梁平稳上升。画面无文字、字母、数字、商标、水印。",
+      "negativePrompt": "no text, no letters, no digits, no logos, no watermark",
+      "firstFrame": "/files/p_mwajj9n7_t1q2x/assets/A04.png",
+      "subtitle": "双小车抬吊\n协同保持平稳",
+      "narration": "两套起升机构协同，把长构件保持平稳。"
+    },
+    {
+      "shotId": "SH05",
+      "sceneId": "SC05",
+      "duration": 10,
+      "ratio": "16:9",
+      "videoPrompt": "巨型构件空中缓慢转向。镜头：环绕。动作：构件缓慢转动。画面无文字、字母、数字、商标、水印。",
+      "negativePrompt": "no text, no letters, no digits, no logos, no watermark",
+      "firstFrame": "/files/p_mwajj9n7_t1q2x/assets/A05.png",
+      "subtitle": "空中分段翻身\n1900 吨",
+      "narration": "分段构件在空中完成姿态调整，最大1900吨。"
+    },
+    {
+      "shotId": "SH06",
+      "sceneId": "SC06",
+      "duration": 10,
+      "ratio": "16:9",
+      "videoPrompt": "门机全景落日收束。镜头：缓慢拉远。动作：光影渐暗。画面无文字、字母、数字、商标、水印。",
+      "negativePrompt": "no text, no letters, no digits, no logos, no watermark",
+      "firstFrame": "/files/p_mwajj9n7_t1q2x/assets/A06.png",
+      "subtitle": "大国重器\n每一吨都算得准",
+      "narration": "看得见的巨物，背后是算得准的每一吨。"
+    }
+  ],
+  "pack": {
+    "schema": "weihua.video-task-pack/v1",
+    "project": {
+      "id": "p_mwajj9n7_t1q2x",
+      "title": "工业科普 · 把 3800 吨放进日常尺度",
+      "style": "产品科普",
+      "ratio": "16:9"
+    },
+    "shots": [
+      {
+        "shot_id": "SH01",
+        "duration_seconds": 10,
+        "ratio": "16:9",
+        "prompt": "空旷场地上门机与一个人同框。镜头：低机位推近。动作：人物走向门机。画面无文字、字母、数字、商标、水印。",
+        "negative_prompt": "no text, no letters, no digits, no logos, no watermark",
+        "first_frame": "/files/p_mwajj9n7_t1q2x/assets/A01.png",
+        "subtitle": "3800 吨\n到底是多重",
+        "narration": "3800吨，到底是多重？",
+        "status": "ready",
+        "video": "/files/p_mwajj9n7_t1q2x/videos/SH01.mp4"
+      },
+      {
+        "shot_id": "SH02",
+        "duration_seconds": 10,
+        "ratio": "16:9",
+        "prompt": "停车场阵列与吊装构件对比。镜头：俯拍下降。动作：阵列车辆与吊钩形成对比。画面无文字、字母、数字、商标、水印。",
+        "negative_prompt": "no text, no letters, no digits, no logos, no watermark",
+        "first_frame": "/files/p_mwajj9n7_t1q2x/assets/A02.png",
+        "subtitle": "≈2500 辆小轿车\n按1.5吨/辆估算",
+        "narration": "按每辆1.5吨估算，约等于2500辆小轿车同时离地。",
+        "status": "ready",
+        "video": "/files/p_mwajj9n7_t1q2x/videos/SH02.mp4"
+      },
+      {
+        "shot_id": "SH03",
+        "duration_seconds": 10,
+        "ratio": "16:9",
+        "prompt": "门机与城市住宅楼并置。镜头：横移。动作：云层掠过主梁。画面无文字、字母、数字、商标、水印。",
+        "negative_prompt": "no text, no letters, no digits, no logos, no watermark",
+        "first_frame": "/files/p_mwajj9n7_t1q2x/assets/A03.png",
+        "subtitle": "130 米 ≈ 43 层楼\n按3米/层估算",
+        "narration": "130米起升高度，按每层3米估算，约43层楼。",
+        "status": "ready",
+        "video": "/files/p_mwajj9n7_t1q2x/videos/SH03.mp4"
+      },
+      {
+        "shot_id": "SH04",
+        "duration_seconds": 10,
+        "ratio": "16:9",
+        "prompt": "双小车同步起吊长构件。镜头：侧面固定。动作：钢梁平稳上升。画面无文字、字母、数字、商标、水印。",
+        "negative_prompt": "no text, no letters, no digits, no logos, no watermark",
+        "first_frame": "/files/p_mwajj9n7_t1q2x/assets/A04.png",
+        "subtitle": "双小车抬吊\n协同保持平稳",
+        "narration": "两套起升机构协同，把长构件保持平稳。",
+        "status": "ready",
+        "video": "/files/p_mwajj9n7_t1q2x/videos/SH04.mp4"
+      },
+      {
+        "shot_id": "SH05",
+        "duration_seconds": 10,
+        "ratio": "16:9",
+        "prompt": "巨型构件空中缓慢转向。镜头：环绕。动作：构件缓慢转动。画面无文字、字母、数字、商标、水印。",
+        "negative_prompt": "no text, no letters, no digits, no logos, no watermark",
+        "first_frame": "/files/p_mwajj9n7_t1q2x/assets/A05.png",
+        "subtitle": "空中分段翻身\n1900 吨",
+        "narration": "分段构件在空中完成姿态调整，最大1900吨。",
+        "status": "ready",
+        "video": "/files/p_mwajj9n7_t1q2x/videos/SH05.mp4"
+      },
+      {
+        "shot_id": "SH06",
+        "duration_seconds": 10,
+        "ratio": "16:9",
+        "prompt": "门机全景落日收束。镜头：缓慢拉远。动作：光影渐暗。画面无文字、字母、数字、商标、水印。",
+        "negative_prompt": "no text, no letters, no digits, no logos, no watermark",
+        "first_frame": "/files/p_mwajj9n7_t1q2x/assets/A06.png",
+        "subtitle": "大国重器\n每一吨都算得准",
+        "narration": "看得见的巨物，背后是算得准的每一吨。",
+        "status": "ready",
+        "video": "/files/p_mwajj9n7_t1q2x/videos/SH06.mp4"
+      }
+    ]
+  },
+  "preset": true,
+  "presetKey": "B",
+  "videos": [
+    {
+      "shotId": "SH01",
+      "status": "done",
+      "path": "C:\\Users\\temple\\AppData\\Local\\Doubao\\User Data\\Profile 3\\.doubao\\agent_mode\\workspace\\.sessions\\38452860922789634\\agents\\m_0cwe35TJ0Ab\\repo\\weihua-hackathon\\G-短视频流水线\\data\\projects\\p_mwajj9n7_t1q2x\\videos\\SH01.mp4",
+      "url": "/files/p_mwajj9n7_t1q2x/videos/SH01.mp4",
+      "seconds": 10,
+      "error": null
+    },
+    {
+      "shotId": "SH02",
+      "status": "done",
+      "path": "C:\\Users\\temple\\AppData\\Local\\Doubao\\User Data\\Profile 3\\.doubao\\agent_mode\\workspace\\.sessions\\38452860922789634\\agents\\m_0cwe35TJ0Ab\\repo\\weihua-hackathon\\G-短视频流水线\\data\\projects\\p_mwajj9n7_t1q2x\\videos\\SH02.mp4",
+      "url": "/files/p_mwajj9n7_t1q2x/videos/SH02.mp4",
+      "seconds": 10,
+      "error": null
+    },
+    {
+      "shotId": "SH03",
+      "status": "done",
+      "path": "C:\\Users\\temple\\AppData\\Local\\Doubao\\User Data\\Profile 3\\.doubao\\agent_mode\\workspace\\.sessions\\38452860922789634\\agents\\m_0cwe35TJ0Ab\\repo\\weihua-hackathon\\G-短视频流水线\\data\\projects\\p_mwajj9n7_t1q2x\\videos\\SH03.mp4",
+      "url": "/files/p_mwajj9n7_t1q2x/videos/SH03.mp4",
+      "seconds": 10,
+      "error": null
+    },
+    {
+      "shotId": "SH04",
+      "status": "done",
+      "path": "C:\\Users\\temple\\AppData\\Local\\Doubao\\User Data\\Profile 3\\.doubao\\agent_mode\\workspace\\.sessions\\38452860922789634\\agents\\m_0cwe35TJ0Ab\\repo\\weihua-hackathon\\G-短视频流水线\\data\\projects\\p_mwajj9n7_t1q2x\\videos\\SH04.mp4",
+      "url": "/files/p_mwajj9n7_t1q2x/videos/SH04.mp4",
+      "seconds": 10,
+      "error": null
+    },
+    {
+      "shotId": "SH05",
+      "status": "done",
+      "path": "C:\\Users\\temple\\AppData\\Local\\Doubao\\User Data\\Profile 3\\.doubao\\agent_mode\\workspace\\.sessions\\38452860922789634\\agents\\m_0cwe35TJ0Ab\\repo\\weihua-hackathon\\G-短视频流水线\\data\\projects\\p_mwajj9n7_t1q2x\\videos\\SH05.mp4",
+      "url": "/files/p_mwajj9n7_t1q2x/videos/SH05.mp4",
+      "seconds": 10,
+      "error": null
+    },
+    {
+      "shotId": "SH06",
+      "status": "done",
+      "path": "C:\\Users\\temple\\AppData\\Local\\Doubao\\User Data\\Profile 3\\.doubao\\agent_mode\\workspace\\.sessions\\38452860922789634\\agents\\m_0cwe35TJ0Ab\\repo\\weihua-hackathon\\G-短视频流水线\\data\\projects\\p_mwajj9n7_t1q2x\\videos\\SH06.mp4",
+      "url": "/files/p_mwajj9n7_t1q2x/videos/SH06.mp4",
+      "seconds": 10,
+      "error": null
+    }
+  ],
+  "final": {
+    "status": "done",
+    "path": "final.mp4",
+    "url": "/files/p_mwajj9n7_t1q2x/final.mp4",
+    "seconds": 60.3,
+    "width": 1280,
+    "height": 720,
+    "updatedAt": "2026-11-10T11:50:15.186Z"
+  }
+}

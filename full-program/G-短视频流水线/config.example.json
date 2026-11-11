@@ -1,0 +1,23 @@
+{
+  "llm": {
+    "mode": "template",
+    "base_url": "",
+    "api_key": "",
+    "model": "",
+    "note": "mode=openai 时走任意 OpenAI 兼容 /chat/completions；mode=template 时用内置模板引擎，无需 Key"
+  },
+  "image": {
+    "base_url": "https://www.aicost.me/v1",
+    "api_key": "",
+    "model": "gpt-image-2.5-flare",
+    "size": "1536x1024",
+    "note": "已实测：文生图 /images/generations，图生图 /images/edits 仅接受 URL 或 base64 参考图"
+  },
+  "video": {
+    "mode": "prompt-pack",
+    "base_url": "https://api.tu-zi.com",
+    "api_key": "",
+    "model": "",
+    "note": "prompt-pack 只导出每镜提示词与任务包；配置 Key 后可扩展为真实提交"
+  }
+}

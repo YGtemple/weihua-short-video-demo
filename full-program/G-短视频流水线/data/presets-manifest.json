@@ -1,0 +1,334 @@
+[
+  {
+    "projectId": "p_mwajj9mj_gog4c",
+    "key": "A",
+    "title": "名场面穿越 · 3800t 门机",
+    "shots": [
+      {
+        "shotId": "SH01",
+        "assetId": "A01",
+        "seconds": 10,
+        "artPrompt": "巨型橙色双主梁门式起重机全景，前景工程师剪影仰望，工业史诗电影感，写实摄影，暖橙与钢青对比，尘雾与体积光，16:9 横版，画面中不出现任何文字、字母、数字、商标、logo、水印",
+        "videoPrompt": "巨型门机全景，工程师背影，尘雾逆光。镜头：低机位缓慢推近。动作：尘雾流动，逆光渐强。画面无文字、字母、数字、商标、水印。",
+        "assetPath": "assets/A01.png",
+        "videoPath": "videos/SH01.mp4"
+      },
+      {
+        "shotId": "SH02",
+        "assetId": "A02",
+        "seconds": 10,
+        "artPrompt": "古代老者抬头望向现代巨型门机，古今同框，工业史诗电影感，写实摄影，暖橙与钢青对比，尘雾与体积光，16:9 横版，画面中不出现任何文字、字母、数字、商标、logo、水印",
+        "videoPrompt": "古装人物抬头指向门机，夸张尺度对比。镜头：横移跟拍。动作：人物抬手，衣袖飘动。画面无文字、字母、数字、商标、水印。",
+        "assetPath": "assets/A02.png",
+        "videoPath": "videos/SH02.mp4"
+      },
+      {
+        "shotId": "SH03",
+        "assetId": "A03",
+        "seconds": 10,
+        "artPrompt": "双小车吊钩吊起巨型钢构件，地面工人仰视，工业史诗电影感，写实摄影，暖橙与钢青对比，尘雾与体积光，16:9 横版，画面中不出现任何文字、字母、数字、商标、logo、水印",
+        "videoPrompt": "双小车吊起巨型构件，人群仰视。镜头：固定机位微推。动作：构件缓慢离地。画面无文字、字母、数字、商标、水印。",
+        "assetPath": "assets/A03.png",
+        "videoPath": "videos/SH03.mp4"
+      },
+      {
+        "shotId": "SH04",
+        "assetId": "A04",
+        "seconds": 10,
+        "artPrompt": "吊钩与构件沿门机主梁上升，云层与夕阳，工业史诗电影感，写实摄影，暖橙与钢青对比，尘雾与体积光，16:9 横版，画面中不出现任何文字、字母、数字、商标、logo、水印",
+        "videoPrompt": "吊钩上升穿越云层。镜头：拉远揭示全貌。动作：镜头随吊钩上升。画面无文字、字母、数字、商标、水印。",
+        "assetPath": "assets/A04.png",
+        "videoPath": "videos/SH04.mp4"
+      },
+      {
+        "shotId": "SH05",
+        "assetId": "A05",
+        "seconds": 10,
+        "artPrompt": "两组吊钩协同吊运巨型构件，构件缓慢转向，工业史诗电影感，写实摄影，暖橙与钢青对比，尘雾与体积光，16:9 横版，画面中不出现任何文字、字母、数字、商标、logo、水印",
+        "videoPrompt": "双小车协同，构件空中姿态调整。镜头：环绕小幅度摇动。动作：构件缓慢旋转。画面无文字、字母、数字、商标、水印。",
+        "assetPath": "assets/A05.png",
+        "videoPath": "videos/SH05.mp4"
+      },
+      {
+        "shotId": "SH06",
+        "assetId": "A06",
+        "seconds": 10,
+        "artPrompt": "夕阳下门机剪影，天空留白用于后期品牌落板，工业史诗电影感，写实摄影，暖橙与钢青对比，尘雾与体积光，16:9 横版，画面中不出现任何文字、字母、数字、商标、logo、水印",
+        "videoPrompt": "夕阳下门机剪影，留出品牌文案区。镜头：固定机位。动作：云缓慢流动，光线渐暗。画面无文字、字母、数字、商标、水印。",
+        "assetPath": "assets/A06.png",
+        "videoPath": "videos/SH06.mp4"
+      },
+      {
+        "shotId": "SH07",
+        "assetId": "A07",
+        "seconds": 4,
+        "artPrompt": "以既有尾镜美术为底图，暗化背景并由后期排版品牌文字，不生成或仿造官方 Logo",
+        "videoPrompt": "既有尾镜暗化，固定机位，品牌文字后期合成，4 秒静态落板。",
+        "assetPath": "assets/A07.png",
+        "videoPath": "videos/SH07.mp4"
+      }
+    ]
+  },
+  {
+    "projectId": "p_mwajj9n7_t1q2x",
+    "key": "B",
+    "title": "工业科普 · 把 3800 吨放进日常尺度",
+    "shots": [
+      {
+        "shotId": "SH01",
+        "assetId": "A01",
+        "seconds": 10,
+        "artPrompt": "巨型门机与一名工程师同框，强烈尺度对比，工业史诗电影感，写实摄影，暖橙与钢青对比，尘雾与体积光，16:9 横版，画面中不出现任何文字、字母、数字、商标、logo、水印",
+        "videoPrompt": "空旷场地上门机与一个人同框。镜头：低机位推近。动作：人物走向门机。画面无文字、字母、数字、商标、水印。",
+        "assetPath": "assets/A01.png",
+        "videoPath": "videos/SH01.mp4"
+      },
+      {
+        "shotId": "SH02",
+        "assetId": "A02",
+        "seconds": 10,
+        "artPrompt": "整齐排列的小轿车阵列与巨型吊钩同框，工业史诗电影感，写实摄影，暖橙与钢青对比，尘雾与体积光，16:9 横版，画面中不出现任何文字、字母、数字、商标、logo、水印",
+        "videoPrompt": "停车场阵列与吊装构件对比。镜头：俯拍下降。动作：阵列车辆与吊钩形成对比。画面无文字、字母、数字、商标、水印。",
+        "assetPath": "assets/A02.png",
+        "videoPath": "videos/SH02.mp4"
+      },
+      {
+        "shotId": "SH03",
+        "assetId": "A03",
+        "seconds": 10,
+        "artPrompt": "巨型门机与远处高层住宅楼群并置，晨雾，工业史诗电影感，写实摄影，暖橙与钢青对比，尘雾与体积光，16:9 横版，画面中不出现任何文字、字母、数字、商标、logo、水印",
+        "videoPrompt": "门机与城市住宅楼并置。镜头：横移。动作：云层掠过主梁。画面无文字、字母、数字、商标、水印。",
+        "assetPath": "assets/A03.png",
+        "videoPath": "videos/SH03.mp4"
+      },
+      {
+        "shotId": "SH04",
+        "assetId": "A04",
+        "seconds": 10,
+        "artPrompt": "两组吊钩同步吊起长条形钢梁，保持水平，工业史诗电影感，写实摄影，暖橙与钢青对比，尘雾与体积光，16:9 横版，画面中不出现任何文字、字母、数字、商标、logo、水印",
+        "videoPrompt": "双小车同步起吊长构件。镜头：侧面固定。动作：钢梁平稳上升。画面无文字、字母、数字、商标、水印。",
+        "assetPath": "assets/A04.png",
+        "videoPath": "videos/SH04.mp4"
+      },
+      {
+        "shotId": "SH05",
+        "assetId": "A05",
+        "seconds": 10,
+        "artPrompt": "巨型构件在吊索下缓慢调整姿态，工人仰望，工业史诗电影感，写实摄影，暖橙与钢青对比，尘雾与体积光，16:9 横版，画面中不出现任何文字、字母、数字、商标、logo、水印",
+        "videoPrompt": "巨型构件空中缓慢转向。镜头：环绕。动作：构件缓慢转动。画面无文字、字母、数字、商标、水印。",
+        "assetPath": "assets/A05.png",
+        "videoPath": "videos/SH05.mp4"
+      },
+      {
+        "shotId": "SH06",
+        "assetId": "A06",
+        "seconds": 10,
+        "artPrompt": "门机全景落日，天空留白，工业史诗电影感，写实摄影，暖橙与钢青对比，尘雾与体积光，16:9 横版，画面中不出现任何文字、字母、数字、商标、logo、水印",
+        "videoPrompt": "门机全景落日收束。镜头：缓慢拉远。动作：光影渐暗。画面无文字、字母、数字、商标、水印。",
+        "assetPath": "assets/A06.png",
+        "videoPath": "videos/SH06.mp4"
+      }
+    ]
+  },
+  {
+    "projectId": "p_mwajj9nq_hgoti",
+    "key": "C",
+    "title": "新中式 · 低 30% 的底气",
+    "shots": [
+      {
+        "shotId": "SH01",
+        "assetId": "A01",
+        "seconds": 10,
+        "artPrompt": "低净空工业厂房内部，顶部梁架压迫感，工业史诗电影感，写实摄影，暖橙与钢青对比，尘雾与体积光，16:9 横版，画面中不出现任何文字、字母、数字、商标、logo、水印",
+        "videoPrompt": "低净空厂房内部，顶部空间有限。镜头：低机位前推。动作：灯光逐排点亮。画面无文字、字母、数字、商标、水印。",
+        "assetPath": "assets/A01.png",
+        "videoPath": "videos/SH01.mp4"
+      },
+      {
+        "shotId": "SH02",
+        "assetId": "A02",
+        "seconds": 10,
+        "artPrompt": "结构紧凑的现代桥式起重机，线条简洁，工业史诗电影感，写实摄影，暖橙与钢青对比，尘雾与体积光，16:9 横版，画面中不出现任何文字、字母、数字、商标、logo、水印",
+        "videoPrompt": "结构紧凑的新型桥式起重机。镜头：环绕展示。动作：小车沿主梁缓慢移动。画面无文字、字母、数字、商标、水印。",
+        "assetPath": "assets/A02.png",
+        "videoPath": "videos/SH02.mp4"
+      },
+      {
+        "shotId": "SH03",
+        "assetId": "A03",
+        "seconds": 10,
+        "artPrompt": "两台不同高度的工业起重机并置对比，工业史诗电影感，写实摄影，暖橙与钢青对比，尘雾与体积光，16:9 横版，画面中不出现任何文字、字母、数字、商标、logo、水印",
+        "videoPrompt": "新旧两台起重机轮廓对比。镜头：固定机位。动作：镜头缓慢横移对比。画面无文字、字母、数字、商标、水印。",
+        "assetPath": "assets/A03.png",
+        "videoPath": "videos/SH03.mp4"
+      },
+      {
+        "shotId": "SH04",
+        "assetId": "A04",
+        "seconds": 10,
+        "artPrompt": "起重机主梁与端梁连接部位特写，焊缝与螺栓，工业史诗电影感，写实摄影，暖橙与钢青对比，尘雾与体积光，16:9 横版，画面中不出现任何文字、字母、数字、商标、logo、水印",
+        "videoPrompt": "主梁与端梁连接细节。镜头：微距横移。动作：光影扫过金属表面。画面无文字、字母、数字、商标、水印。",
+        "assetPath": "assets/A04.png",
+        "videoPath": "videos/SH04.mp4"
+      },
+      {
+        "shotId": "SH05",
+        "assetId": "A05",
+        "seconds": 10,
+        "artPrompt": "低净空厂房内起重机平稳吊运工件，工业史诗电影感，写实摄影，暖橙与钢青对比，尘雾与体积光，16:9 横版，画面中不出现任何文字、字母、数字、商标、logo、水印",
+        "videoPrompt": "低净空厂房内平稳吊运。镜头：跟拍。动作：吊具平稳前行。画面无文字、字母、数字、商标、水印。",
+        "assetPath": "assets/A05.png",
+        "videoPath": "videos/SH05.mp4"
+      },
+      {
+        "shotId": "SH06",
+        "assetId": "A06",
+        "seconds": 10,
+        "artPrompt": "厂房大门逆光，起重机剪影，工业史诗电影感，写实摄影，暖橙与钢青对比，尘雾与体积光，16:9 横版，画面中不出现任何文字、字母、数字、商标、logo、水印",
+        "videoPrompt": "厂房门口逆光收束。镜头：缓慢拉远。动作：光线渐亮。画面无文字、字母、数字、商标、水印。",
+        "assetPath": "assets/A06.png",
+        "videoPath": "videos/SH06.mp4"
+      },
+      {
+        "shotId": "SH07",
+        "assetId": "A07",
+        "seconds": 4,
+        "artPrompt": "以既有尾镜美术为底图，暗化背景并由后期排版品牌文字，不生成或仿造官方 Logo",
+        "videoPrompt": "既有尾镜暗化，固定机位，品牌文字后期合成，4 秒静态落板。",
+        "assetPath": "assets/A07.png",
+        "videoPath": "videos/SH07.mp4"
+      }
+    ]
+  },
+  {
+    "projectId": "p_mwajj9nu_mh5o0",
+    "key": "D",
+    "title": "智能制造 · 一台门机的诞生",
+    "shots": [
+      {
+        "shotId": "SH01",
+        "assetId": "A01",
+        "seconds": 10,
+        "artPrompt": "钢材堆场，钢板整齐码放，晨光，工业史诗电影感，写实摄影，暖橙与钢青对比，尘雾与体积光，16:9 横版，画面中不出现任何文字、字母、数字、商标、logo、水印",
+        "videoPrompt": "整卷钢板与原材料堆场。镜头：横移。动作：天车吊运钢板。画面无文字、字母、数字、商标、水印。",
+        "assetPath": "assets/A01.png",
+        "videoPath": "videos/SH01.mp4"
+      },
+      {
+        "shotId": "SH02",
+        "assetId": "A02",
+        "seconds": 10,
+        "artPrompt": "数控切割设备切割钢板，火花飞溅，工业史诗电影感，写实摄影，暖橙与钢青对比，尘雾与体积光，16:9 横版，画面中不出现任何文字、字母、数字、商标、logo、水印",
+        "videoPrompt": "数控等离子切割火花。镜头：俯拍固定。动作：切割头行进，火花飞溅。画面无文字、字母、数字、商标、水印。",
+        "assetPath": "assets/A02.png",
+        "videoPath": "videos/SH02.mp4"
+      },
+      {
+        "shotId": "SH03",
+        "assetId": "A03",
+        "seconds": 10,
+        "artPrompt": "工业焊接机器人对大型钢结构焊接，弧光，工业史诗电影感，写实摄影，暖橙与钢青对比，尘雾与体积光，16:9 横版，画面中不出现任何文字、字母、数字、商标、logo、水印",
+        "videoPrompt": "焊接机器人作业。镜头：环绕。动作：机械臂稳定移动。画面无文字、字母、数字、商标、水印。",
+        "assetPath": "assets/A03.png",
+        "videoPath": "videos/SH03.mp4"
+      },
+      {
+        "shotId": "SH04",
+        "assetId": "A04",
+        "seconds": 10,
+        "artPrompt": "巨型门机主梁在装配车间吊装合拢，工业史诗电影感，写实摄影，暖橙与钢青对比，尘雾与体积光，16:9 横版，画面中不出现任何文字、字母、数字、商标、logo、水印",
+        "videoPrompt": "巨型主梁装配现场。镜头：低机位推近。动作：主梁缓慢就位。画面无文字、字母、数字、商标、水印。",
+        "assetPath": "assets/A04.png",
+        "videoPath": "videos/SH04.mp4"
+      },
+      {
+        "shotId": "SH05",
+        "assetId": "A05",
+        "seconds": 10,
+        "artPrompt": "大型起重机试验台，吊起配重块，工业史诗电影感，写实摄影，暖橙与钢青对比，尘雾与体积光，16:9 横版，画面中不出现任何文字、字母、数字、商标、logo、水印",
+        "videoPrompt": "试验台上的整机测试。镜头：固定机位。动作：配重缓慢离地。画面无文字、字母、数字、商标、水印。",
+        "assetPath": "assets/A05.png",
+        "videoPath": "videos/SH05.mp4"
+      },
+      {
+        "shotId": "SH06",
+        "assetId": "A06",
+        "seconds": 10,
+        "artPrompt": "大型平板运输车装载构件驶出厂区，工业史诗电影感，写实摄影，暖橙与钢青对比，尘雾与体积光，16:9 横版，画面中不出现任何文字、字母、数字、商标、logo、水印",
+        "videoPrompt": "大型运输车队出厂。镜头：跟拍。动作：车队缓缓驶出。画面无文字、字母、数字、商标、水印。",
+        "assetPath": "assets/A06.png",
+        "videoPath": "videos/SH06.mp4"
+      }
+    ]
+  },
+  {
+    "projectId": "p_mwajj9nz_1953r",
+    "key": "E",
+    "title": "全球工程 · 港口与远方",
+    "shots": [
+      {
+        "shotId": "SH01",
+        "assetId": "A01",
+        "seconds": 10,
+        "artPrompt": "清晨集装箱码头，桥吊林立，海面薄雾，工业史诗电影感，写实摄影，暖橙与钢青对比，尘雾与体积光，16:9 横版，画面中不出现任何文字、字母、数字、商标、logo、水印",
+        "videoPrompt": "清晨集装箱码头全景。镜头：航拍前推。动作：海面波光，船只缓慢移动。画面无文字、字母、数字、商标、水印。",
+        "assetPath": "assets/A01.png",
+        "videoPath": "videos/SH01.mp4"
+      },
+      {
+        "shotId": "SH02",
+        "assetId": "A02",
+        "seconds": 10,
+        "artPrompt": "集装箱被吊具抓起离开船舷，工业史诗电影感，写实摄影，暖橙与钢青对比，尘雾与体积光，16:9 横版，画面中不出现任何文字、字母、数字、商标、logo、水印",
+        "videoPrompt": "吊具抓箱起升。镜头：低机位仰视。动作：集装箱平稳上升。画面无文字、字母、数字、商标、水印。",
+        "assetPath": "assets/A02.png",
+        "videoPath": "videos/SH02.mp4"
+      },
+      {
+        "shotId": "SH03",
+        "assetId": "A03",
+        "seconds": 10,
+        "artPrompt": "多台港口起重设备协同作业，工业史诗电影感，写实摄影，暖橙与钢青对比，尘雾与体积光，16:9 横版，画面中不出现任何文字、字母、数字、商标、logo、水印",
+        "videoPrompt": "多台起重设备同时作业。镜头：横移航拍。动作：吊具往复，车辆穿行。画面无文字、字母、数字、商标、水印。",
+        "assetPath": "assets/A03.png",
+        "videoPath": "videos/SH03.mp4"
+      },
+      {
+        "shotId": "SH04",
+        "assetId": "A04",
+        "seconds": 10,
+        "artPrompt": "海外大型工地，门式起重机吊装作业，工业史诗电影感，写实摄影，暖橙与钢青对比，尘雾与体积光，16:9 横版，画面中不出现任何文字、字母、数字、商标、logo、水印",
+        "videoPrompt": "海外工地门机作业。镜头：环绕。动作：构件缓慢就位。画面无文字、字母、数字、商标、水印。",
+        "assetPath": "assets/A04.png",
+        "videoPath": "videos/SH04.mp4"
+      },
+      {
+        "shotId": "SH05",
+        "assetId": "A05",
+        "seconds": 10,
+        "artPrompt": "夜间工地，灯光下起重机继续吊装，工业史诗电影感，写实摄影，暖橙与钢青对比，尘雾与体积光，16:9 横版，画面中不出现任何文字、字母、数字、商标、logo、水印",
+        "videoPrompt": "夜间工地灯光下的吊装。镜头：固定机位。动作：灯光闪烁，吊钩移动。画面无文字、字母、数字、商标、水印。",
+        "assetPath": "assets/A05.png",
+        "videoPath": "videos/SH05.mp4"
+      },
+      {
+        "shotId": "SH06",
+        "assetId": "A06",
+        "seconds": 10,
+        "artPrompt": "港口日落全景，天空留白用于品牌落板，工业史诗电影感，写实摄影，暖橙与钢青对比，尘雾与体积光，16:9 横版，画面中不出现任何文字、字母、数字、商标、logo、水印",
+        "videoPrompt": "港口日落全景收束。镜头：缓慢拉远。动作：夕阳渐沉。画面无文字、字母、数字、商标、水印。",
+        "assetPath": "assets/A06.png",
+        "videoPath": "videos/SH06.mp4"
+      },
+      {
+        "shotId": "SH07",
+        "assetId": "A07",
+        "seconds": 4,
+        "artPrompt": "以既有尾镜美术为底图，暗化背景并由后期排版品牌文字，不生成或仿造官方 Logo",
+        "videoPrompt": "既有尾镜暗化，固定机位，品牌文字后期合成，4 秒静态落板。",
+        "assetPath": "assets/A07.png",
+        "videoPath": "videos/SH07.mp4"
+      }
+    ]
+  }
+]

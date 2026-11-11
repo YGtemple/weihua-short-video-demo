@@ -1,0 +1,9 @@
+services:
+  demo:
+    build: .
+    ports:
+      - "8177:8177"
+    environment:
+      HOST: 0.0.0.0
+      PORT: 8177
+    restart: unless-stopped

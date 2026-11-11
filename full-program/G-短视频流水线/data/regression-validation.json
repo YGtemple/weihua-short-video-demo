@@ -1,0 +1,52 @@
+{
+  "date": "2026-11-10",
+  "realWorkflow": {
+    "initialRun": "passed_after_A06_single_retry",
+    "stages": 7,
+    "assets": 6,
+    "shots": 8,
+    "scriptSave": "passed",
+    "analysisRerun": "passed",
+    "temporaryProjectCleaned": true
+  },
+  "assetRegeneration": {
+    "status": "upstream_timeout_no_new_image",
+    "A01Attempts": 2,
+    "A02Attempts": 1,
+    "timeoutSeconds": 180,
+    "errorPersistence": "passed"
+  },
+  "matrix": {
+    "status": "passed",
+    "topics": 2,
+    "variantsPerTopic": 2,
+    "projects": 4,
+    "nonMediaStagesPerProject": 6,
+    "temporaryProjectsCleaned": true
+  },
+  "browser": {
+    "workflowNodes": 9,
+    "scriptNode": "passed",
+    "presetDemo": "passed",
+    "finalVideoReadyState": 4,
+    "playlistShots": 7,
+    "playlistNext": "SH02",
+    "mainDesktopChrome": "passed_E_workflow_left_open"
+  },
+  "fixes": [
+    "image request and download timeout",
+    "interrupted stage recovery after restart",
+    "project completion calculated from all seven stages",
+    "static directory boundary checks",
+    "robust browser metadata waits and playlist assertions"
+  ],
+  "openSourceOptimization": {
+    "benchmark": ["MoneyPrinterTurbo", "ShortGPT", "MoneyPrinterPlus"],
+    "assetIdempotency": "passed_without_network",
+    "retryClassification": "passed_timeout_429_5xx_only",
+    "preflight": "passed_5_projects_33_images_33_videos_5_finals",
+    "portableWindowsLauncher": "passed",
+    "browserAndMatrixRerun": "passed",
+    "dockerBuild": "not_run_docker_not_installed"
+  }
+}

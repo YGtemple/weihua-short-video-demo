@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>外部 UI · 豆包桥接工作台</title>
+<style>
+body{margin:0;background:#10141b;color:#e8edf4;font:14px/1.7 "Microsoft YaHei",system-ui,sans-serif}
+main{max-width:860px;margin:32px auto;padding:0 18px}
+h1{font-size:20px}p.muted{color:#93a1b3;font-size:12px}
+textarea,input,select{width:100%;background:#0f141c;color:#e8edf4;border:1px solid #2a3442;border-radius:8px;padding:9px;font:inherit;box-sizing:border-box}
+button{cursor:pointer;background:#e08a3c;border:0;border-radius:8px;padding:10px 18px;font-weight:600;margin-top:12px}
+.row{display:flex;gap:12px}.row>*{flex:1}
+label{font-size:12px;color:#93a1b3;display:block;margin-top:10px}
+pre{white-space:pre-wrap;word-break:break-word;background:#171d27;border:1px solid #2a3442;border-radius:10px;padding:14px;font-size:13px}
+img{max-width:100%;border-radius:10px;border:1px solid #2a3442;margin-top:10px}
+.job{border:1px solid #2a3442;border-radius:10px;padding:12px;margin-top:14px;background:#171d27}
+code{color:#e08a3c}
+</style>
+</head>
+<body>
+<main>
+  <h1>外部 UI → 本机接口 → 豆包</h1>
+  <p class="muted">这个页面不连任何模型。它只调用 <code>POST /bridge/jobs</code>，任务进入本机队列，
+  由豆包会话取出处理（写文案 / 生图 / 视频），结果写回后页面自动显示。</p>
+  <div class="row">
+    <label>任务类型
+      <select id="type"><option value="text">文本（剧本/文案/分析）</option><option value="image">图像（美术资产）</option><option value="video">视频（镜头）</option></select>
+    </label>
+    <label>生图通道
+      <select id="channel"><option value="builtin">豆包内置</option><option value="aicost">aicost 中转站</option></select>
+    </label>
+  </div>
+  <label>提示词 / 需求</label>
+  <textarea id="prompt" rows="4">为卫华3800t门式起重机写一句15字以内的短视频开场钩子，面向集团领导评审。</textarea>
+  <button id="send">提交给豆包</button>
+  <span id="msg" class="muted"></span>
+  <div id="jobs"></div>
+</main>
+<script>
+const $=s=>document.querySelector(s);
+const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+async function api(p,o={}){const r=await fetch(p,{headers:{'Content-Type':'application/json'},...o});return r.json();}
+async function refresh(){
+  const {jobs}=await api('/bridge/jobs');
+  $('#jobs').innerHTML=jobs.slice().reverse().map(j=>`<div class="job">
+    <b>${j.id}</b>｜${j.type}｜${j.channel}｜状态：<code>${j.status}</code>
+    <p class="muted">${esc(j.prompt)}</p>
+    ${j.result?.text?`<pre>${esc(j.result.text)}</pre>`:''}
+    ${j.result?.url?`<img src="${j.result.url}" alt="生成结果">`:''}
+    ${j.result?.note?`<p class="muted">${esc(j.result.note)}</p>`:''}
+    ${j.error?`<pre>${esc(j.error)}</pre>`:''}
+  </div>`).join('');
+}
+$('#send').onclick=async()=>{
+  $('#msg').textContent='已提交，等待豆包处理…';
+  await api('/bridge/jobs',{method:'POST',body:JSON.stringify({type:$('#type').value,channel:$('#channel').value,prompt:$('#prompt').value})});
+  refresh();
+};
+refresh();setInterval(refresh,4000);
+</script>
+</body>
+</html>

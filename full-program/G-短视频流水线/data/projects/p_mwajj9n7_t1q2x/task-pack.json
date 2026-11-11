@@ -1,0 +1,83 @@
+{
+  "schema": "weihua.video-task-pack/v1",
+  "project": {
+    "id": "p_mwajj9n7_t1q2x",
+    "title": "工业科普 · 把 3800 吨放进日常尺度",
+    "style": "产品科普",
+    "ratio": "16:9"
+  },
+  "shots": [
+    {
+      "shot_id": "SH01",
+      "duration_seconds": 10,
+      "ratio": "16:9",
+      "prompt": "空旷场地上门机与一个人同框。镜头：低机位推近。动作：人物走向门机。画面无文字、字母、数字、商标、水印。",
+      "negative_prompt": "no text, no letters, no digits, no logos, no watermark",
+      "first_frame": "/files/p_mwajj9n7_t1q2x/assets/A01.png",
+      "subtitle": "3800 吨\n到底是多重",
+      "narration": "3800吨，到底是多重？",
+      "status": "ready",
+      "video": "/files/p_mwajj9n7_t1q2x/videos/SH01.mp4"
+    },
+    {
+      "shot_id": "SH02",
+      "duration_seconds": 10,
+      "ratio": "16:9",
+      "prompt": "停车场阵列与吊装构件对比。镜头：俯拍下降。动作：阵列车辆与吊钩形成对比。画面无文字、字母、数字、商标、水印。",
+      "negative_prompt": "no text, no letters, no digits, no logos, no watermark",
+      "first_frame": "/files/p_mwajj9n7_t1q2x/assets/A02.png",
+      "subtitle": "≈2500 辆小轿车\n按1.5吨/辆估算",
+      "narration": "按每辆1.5吨估算，约等于2500辆小轿车同时离地。",
+      "status": "ready",
+      "video": "/files/p_mwajj9n7_t1q2x/videos/SH02.mp4"
+    },
+    {
+      "shot_id": "SH03",
+      "duration_seconds": 10,
+      "ratio": "16:9",
+      "prompt": "门机与城市住宅楼并置。镜头：横移。动作：云层掠过主梁。画面无文字、字母、数字、商标、水印。",
+      "negative_prompt": "no text, no letters, no digits, no logos, no watermark",
+      "first_frame": "/files/p_mwajj9n7_t1q2x/assets/A03.png",
+      "subtitle": "130 米 ≈ 43 层楼\n按3米/层估算",
+      "narration": "130米起升高度，按每层3米估算，约43层楼。",
+      "status": "ready",
+      "video": "/files/p_mwajj9n7_t1q2x/videos/SH03.mp4"
+    },
+    {
+      "shot_id": "SH04",
+      "duration_seconds": 10,
+      "ratio": "16:9",
+      "prompt": "双小车同步起吊长构件。镜头：侧面固定。动作：钢梁平稳上升。画面无文字、字母、数字、商标、水印。",
+      "negative_prompt": "no text, no letters, no digits, no logos, no watermark",
+      "first_frame": "/files/p_mwajj9n7_t1q2x/assets/A04.png",
+      "subtitle": "双小车抬吊\n协同保持平稳",
+      "narration": "两套起升机构协同，把长构件保持平稳。",
+      "status": "ready",
+      "video": "/files/p_mwajj9n7_t1q2x/videos/SH04.mp4"
+    },
+    {
+      "shot_id": "SH05",
+      "duration_seconds": 10,
+      "ratio": "16:9",
+      "prompt": "巨型构件空中缓慢转向。镜头：环绕。动作：构件缓慢转动。画面无文字、字母、数字、商标、水印。",
+      "negative_prompt": "no text, no letters, no digits, no logos, no watermark",
+      "first_frame": "/files/p_mwajj9n7_t1q2x/assets/A05.png",
+      "subtitle": "空中分段翻身\n1900 吨",
+      "narration": "分段构件在空中完成姿态调整，最大1900吨。",
+      "status": "ready",
+      "video": "/files/p_mwajj9n7_t1q2x/videos/SH05.mp4"
+    },
+    {
+      "shot_id": "SH06",
+      "duration_seconds": 10,
+      "ratio": "16:9",
+      "prompt": "门机全景落日收束。镜头：缓慢拉远。动作：光影渐暗。画面无文字、字母、数字、商标、水印。",
+      "negative_prompt": "no text, no letters, no digits, no logos, no watermark",
+      "first_frame": "/files/p_mwajj9n7_t1q2x/assets/A06.png",
+      "subtitle": "大国重器\n每一吨都算得准",
+      "narration": "看得见的巨物，背后是算得准的每一吨。",
+      "status": "ready",
+      "video": "/files/p_mwajj9n7_t1q2x/videos/SH06.mp4"
+    }
+  ]
+}

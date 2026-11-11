@@ -1,0 +1,17 @@
+{
+  "name": "weihua-short-video-pipeline",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "一句话 → 创意分析 → 剧本 → 美术提示词 → 美术资产 → 分镜 → 每镜视频提示词/任务包，支持矩阵式批量工程。",
+  "engines": {"node": ">=22"},
+  "scripts": {
+    "start": "node src/server/index.js",
+    "dev": "node --watch src/server/index.js",
+    "smoke": "node scripts/smoke.js",
+    "preflight": "node scripts/preflight.js",
+    "test:assets": "node scripts/test-assets.js",
+    "validate:ui": "node scripts/validate-ui.js",
+    "validate:matrix": "node scripts/validate-matrix.js"
+  }
+}

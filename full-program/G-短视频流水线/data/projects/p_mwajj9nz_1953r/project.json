@@ -1,0 +1,627 @@
+{
+  "id": "p_mwajj9nz_1953r",
+  "title": "全球工程 · 港口与远方",
+  "brief": "卫华全球工程品牌片，港口吊装与海外项目场景",
+  "style": "品牌宣言",
+  "ratio": "16:9",
+  "durationTarget": 64,
+  "sceneCount": 7,
+  "variant": 1,
+  "createdAt": "2026-11-10T10:21:58.320Z",
+  "status": "complete",
+  "stages": {
+    "analysis": {
+      "status": "done",
+      "finishedAt": "2026-11-10T10:21:58.321Z"
+    },
+    "script": {
+      "status": "done",
+      "finishedAt": "2026-11-10T10:21:58.321Z"
+    },
+    "artPrompts": {
+      "status": "done",
+      "finishedAt": "2026-11-10T10:21:58.321Z"
+    },
+    "storyboard": {
+      "status": "done",
+      "finishedAt": "2026-11-10T10:21:58.321Z"
+    },
+    "shotPrompts": {
+      "status": "done",
+      "finishedAt": "2026-11-10T10:21:58.321Z"
+    },
+    "assets": {
+      "status": "done",
+      "finishedAt": "2026-11-10T11:15:53.293Z"
+    },
+    "pack": {
+      "status": "done",
+      "finishedAt": "2026-11-10T11:15:53.293Z"
+    }
+  },
+  "logs": [
+    {
+      "at": "2026-11-10T10:21:58.321Z",
+      "stage": "preset",
+      "message": "预置工程已创建，等待美术与视频回填"
+    },
+    {
+      "at": "2026-11-10T11:15:53.293Z",
+      "stage": "preset",
+      "message": "预置资产回填：美术 6/6，视频 6/6"
+    },
+    {
+      "at": "2026-11-10T11:31:05.058Z",
+      "stage": "preset",
+      "message": "差异化升级：7 镜，目标成片 64 秒"
+    },
+    {
+      "at": "2026-11-10T11:50:15.410Z",
+      "stage": "final",
+      "message": "最终成片已合成：7 镜，64.267 秒，带字幕 MP4"
+    }
+  ],
+  "analysis": {
+    "theme": "全球工程 · 港口与远方",
+    "audience": "集团领导、客户与评审评委",
+    "hook": "清晨的第一只集装箱，决定一座港口的节奏。",
+    "keyMessage": [
+      "清晨第一吊 决定港口节奏",
+      "稳稳起吊 空中一条直线",
+      "多机协同 庞大而有序",
+      "走向海外 服务全球工程",
+      "夜深之后 吊装仍在继续",
+      "卫华集团 让世界看见中国起重"
+    ],
+    "tone": "品牌宣言",
+    "visualStyle": "工业史诗电影感，写实摄影，暖橙与钢青对比，尘雾与体积光，16:9 横版，画面中不出现任何文字、字母、数字、商标、logo、水印",
+    "constraints": [
+      "参数仅来自事实库，类比换算标注估算基准与非实测",
+      "新中式 30% 对外口径未签核，稿件标注待签核",
+      "AI 生成画面不含文字与商标，品牌字由后期合成"
+    ],
+    "source": "preset"
+  },
+  "script": {
+    "title": "全球工程 · 港口与远方",
+    "totalSeconds": 64,
+    "scenes": [
+      {
+        "id": "SC01",
+        "title": "清晨港口",
+        "seconds": 10,
+        "narration": "清晨的第一只集装箱，决定一座港口的节奏。",
+        "subtitle": "清晨第一吊\n决定港口节奏",
+        "visual": "清晨集装箱码头全景",
+        "act": "预设"
+      },
+      {
+        "id": "SC02",
+        "title": "稳稳起吊",
+        "seconds": 10,
+        "narration": "几十吨的集装箱，在空中走出一条直线。",
+        "subtitle": "稳稳起吊\n空中一条直线",
+        "visual": "吊具抓箱起升",
+        "act": "预设"
+      },
+      {
+        "id": "SC03",
+        "title": "协同作业",
+        "seconds": 10,
+        "narration": "多台设备协同，让庞大变得有序。",
+        "subtitle": "多机协同\n庞大而有序",
+        "visual": "多台起重设备同时作业",
+        "act": "预设"
+      },
+      {
+        "id": "SC04",
+        "title": "走向海外",
+        "seconds": 10,
+        "narration": "同样的设备，正在更多国家的工地运转。",
+        "subtitle": "走向海外\n服务全球工程",
+        "visual": "海外工地门机作业",
+        "act": "预设"
+      },
+      {
+        "id": "SC05",
+        "title": "夜色坚守",
+        "seconds": 10,
+        "narration": "夜深之后，吊装还在继续。",
+        "subtitle": "夜深之后\n吊装仍在继续",
+        "visual": "夜间工地灯光下的吊装",
+        "act": "预设"
+      },
+      {
+        "id": "SC06",
+        "title": "品牌落板",
+        "seconds": 10,
+        "narration": "卫华集团，让世界看见中国起重。",
+        "subtitle": "卫华集团\n让世界看见中国起重",
+        "visual": "港口日落全景收束",
+        "act": "预设"
+      },
+      {
+        "id": "SC07",
+        "title": "品牌收束",
+        "seconds": 4,
+        "narration": "卫华集团。",
+        "subtitle": "卫华集团\nAI 生成 · 内部预览",
+        "visual": "尾镜场景暗化，品牌文字后期排版，定格收束",
+        "act": "收束"
+      }
+    ]
+  },
+  "artPrompts": [
+    {
+      "assetId": "A01",
+      "name": "SC01 清晨港口",
+      "type": "背景",
+      "prompt": "清晨集装箱码头，桥吊林立，海面薄雾，工业史诗电影感，写实摄影，暖橙与钢青对比，尘雾与体积光，16:9 横版，画面中不出现任何文字、字母、数字、商标、logo、水印",
+      "negative": "no text, no letters, no digits, no logos, no watermark",
+      "size": "1600x900",
+      "sceneIds": [
+        "SC01"
+      ]
+    },
+    {
+      "assetId": "A02",
+      "name": "SC02 稳稳起吊",
+      "type": "背景",
+      "prompt": "集装箱被吊具抓起离开船舷，工业史诗电影感，写实摄影，暖橙与钢青对比，尘雾与体积光，16:9 横版，画面中不出现任何文字、字母、数字、商标、logo、水印",
+      "negative": "no text, no letters, no digits, no logos, no watermark",
+      "size": "1600x900",
+      "sceneIds": [
+        "SC02"
+      ]
+    },
+    {
+      "assetId": "A03",
+      "name": "SC03 协同作业",
+      "type": "背景",
+      "prompt": "多台港口起重设备协同作业，工业史诗电影感，写实摄影，暖橙与钢青对比，尘雾与体积光，16:9 横版，画面中不出现任何文字、字母、数字、商标、logo、水印",
+      "negative": "no text, no letters, no digits, no logos, no watermark",
+      "size": "1600x900",
+      "sceneIds": [
+        "SC03"
+      ]
+    },
+    {
+      "assetId": "A04",
+      "name": "SC04 走向海外",
+      "type": "背景",
+      "prompt": "海外大型工地，门式起重机吊装作业，工业史诗电影感，写实摄影，暖橙与钢青对比，尘雾与体积光，16:9 横版，画面中不出现任何文字、字母、数字、商标、logo、水印",
+      "negative": "no text, no letters, no digits, no logos, no watermark",
+      "size": "1600x900",
+      "sceneIds": [
+        "SC04"
+      ]
+    },
+    {
+      "assetId": "A05",
+      "name": "SC05 夜色坚守",
+      "type": "背景",
+      "prompt": "夜间工地，灯光下起重机继续吊装，工业史诗电影感，写实摄影，暖橙与钢青对比，尘雾与体积光，16:9 横版，画面中不出现任何文字、字母、数字、商标、logo、水印",
+      "negative": "no text, no letters, no digits, no logos, no watermark",
+      "size": "1600x900",
+      "sceneIds": [
+        "SC05"
+      ]
+    },
+    {
+      "assetId": "A06",
+      "name": "SC06 品牌落板",
+      "type": "背景",
+      "prompt": "港口日落全景，天空留白用于品牌落板，工业史诗电影感，写实摄影，暖橙与钢青对比，尘雾与体积光，16:9 横版，画面中不出现任何文字、字母、数字、商标、logo、水印",
+      "negative": "no text, no letters, no digits, no logos, no watermark",
+      "size": "1600x900",
+      "sceneIds": [
+        "SC06"
+      ]
+    },
+    {
+      "assetId": "A07",
+      "name": "SC07 品牌收束",
+      "type": "落板",
+      "prompt": "以既有尾镜美术为底图，暗化背景并由后期排版品牌文字，不生成或仿造官方 Logo",
+      "negative": "no unofficial logo, no watermark",
+      "size": "1600x900",
+      "sceneIds": [
+        "SC07"
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "assetId": "A01",
+      "status": "done",
+      "path": "C:\\Users\\temple\\AppData\\Local\\Doubao\\User Data\\Profile 3\\.doubao\\agent_mode\\workspace\\.sessions\\38452860922789634\\agents\\m_0cwe35TJ0Ab\\repo\\weihua-hackathon\\G-短视频流水线\\data\\projects\\p_mwajj9nz_1953r\\assets\\A01.png",
+      "url": "/files/p_mwajj9nz_1953r/assets/A01.png",
+      "error": null,
+      "updatedAt": "2026-11-10T11:15:41.742Z"
+    },
+    {
+      "assetId": "A02",
+      "status": "done",
+      "path": "C:\\Users\\temple\\AppData\\Local\\Doubao\\User Data\\Profile 3\\.doubao\\agent_mode\\workspace\\.sessions\\38452860922789634\\agents\\m_0cwe35TJ0Ab\\repo\\weihua-hackathon\\G-短视频流水线\\data\\projects\\p_mwajj9nz_1953r\\assets\\A02.png",
+      "url": "/files/p_mwajj9nz_1953r/assets/A02.png",
+      "error": null,
+      "updatedAt": "2026-11-10T11:15:43.966Z"
+    },
+    {
+      "assetId": "A03",
+      "status": "done",
+      "path": "C:\\Users\\temple\\AppData\\Local\\Doubao\\User Data\\Profile 3\\.doubao\\agent_mode\\workspace\\.sessions\\38452860922789634\\agents\\m_0cwe35TJ0Ab\\repo\\weihua-hackathon\\G-短视频流水线\\data\\projects\\p_mwajj9nz_1953r\\assets\\A03.png",
+      "url": "/files/p_mwajj9nz_1953r/assets/A03.png",
+      "error": null,
+      "updatedAt": "2026-11-10T11:15:46.164Z"
+    },
+    {
+      "assetId": "A04",
+      "status": "done",
+      "path": "C:\\Users\\temple\\AppData\\Local\\Doubao\\User Data\\Profile 3\\.doubao\\agent_mode\\workspace\\.sessions\\38452860922789634\\agents\\m_0cwe35TJ0Ab\\repo\\weihua-hackathon\\G-短视频流水线\\data\\projects\\p_mwajj9nz_1953r\\assets\\A04.png",
+      "url": "/files/p_mwajj9nz_1953r/assets/A04.png",
+      "error": null,
+      "updatedAt": "2026-11-10T11:15:47.962Z"
+    },
+    {
+      "assetId": "A05",
+      "status": "done",
+      "path": "C:\\Users\\temple\\AppData\\Local\\Doubao\\User Data\\Profile 3\\.doubao\\agent_mode\\workspace\\.sessions\\38452860922789634\\agents\\m_0cwe35TJ0Ab\\repo\\weihua-hackathon\\G-短视频流水线\\data\\projects\\p_mwajj9nz_1953r\\assets\\A05.png",
+      "url": "/files/p_mwajj9nz_1953r/assets/A05.png",
+      "error": null,
+      "updatedAt": "2026-11-10T11:15:49.853Z"
+    },
+    {
+      "assetId": "A06",
+      "status": "done",
+      "path": "C:\\Users\\temple\\AppData\\Local\\Doubao\\User Data\\Profile 3\\.doubao\\agent_mode\\workspace\\.sessions\\38452860922789634\\agents\\m_0cwe35TJ0Ab\\repo\\weihua-hackathon\\G-短视频流水线\\data\\projects\\p_mwajj9nz_1953r\\assets\\A06.png",
+      "url": "/files/p_mwajj9nz_1953r/assets/A06.png",
+      "error": null,
+      "updatedAt": "2026-11-10T11:15:52.205Z"
+    },
+    {
+      "assetId": "A07",
+      "status": "done",
+      "path": "C:\\Users\\temple\\AppData\\Local\\Doubao\\User Data\\Profile 3\\.doubao\\agent_mode\\workspace\\.sessions\\38452860922789634\\agents\\m_0cwe35TJ0Ab\\repo\\weihua-hackathon\\G-短视频流水线\\data\\projects\\p_mwajj9nz_1953r\\assets\\A07.png",
+      "url": "/files/p_mwajj9nz_1953r/assets/A07.png",
+      "error": null,
+      "updatedAt": "2026-11-10T11:31:03.644Z"
+    }
+  ],
+  "storyboard": [
+    {
+      "shotId": "SH01",
+      "sceneId": "SC01",
+      "seconds": 10,
+      "framing": "全景/特写",
+      "camera": "航拍前推",
+      "action": "海面波光，船只缓慢移动",
+      "subtitle": "清晨第一吊\n决定港口节奏",
+      "assetIds": [
+        "A01"
+      ],
+      "transition": "切"
+    },
+    {
+      "shotId": "SH02",
+      "sceneId": "SC02",
+      "seconds": 10,
+      "framing": "全景/特写",
+      "camera": "低机位仰视",
+      "action": "集装箱平稳上升",
+      "subtitle": "稳稳起吊\n空中一条直线",
+      "assetIds": [
+        "A02"
+      ],
+      "transition": "切"
+    },
+    {
+      "shotId": "SH03",
+      "sceneId": "SC03",
+      "seconds": 10,
+      "framing": "全景/特写",
+      "camera": "横移航拍",
+      "action": "吊具往复，车辆穿行",
+      "subtitle": "多机协同\n庞大而有序",
+      "assetIds": [
+        "A03"
+      ],
+      "transition": "切"
+    },
+    {
+      "shotId": "SH04",
+      "sceneId": "SC04",
+      "seconds": 10,
+      "framing": "全景/特写",
+      "camera": "环绕",
+      "action": "构件缓慢就位",
+      "subtitle": "走向海外\n服务全球工程",
+      "assetIds": [
+        "A04"
+      ],
+      "transition": "切"
+    },
+    {
+      "shotId": "SH05",
+      "sceneId": "SC05",
+      "seconds": 10,
+      "framing": "全景/特写",
+      "camera": "固定机位",
+      "action": "灯光闪烁，吊钩移动",
+      "subtitle": "夜深之后\n吊装仍在继续",
+      "assetIds": [
+        "A05"
+      ],
+      "transition": "切"
+    },
+    {
+      "shotId": "SH06",
+      "sceneId": "SC06",
+      "seconds": 10,
+      "framing": "全景/特写",
+      "camera": "缓慢拉远",
+      "action": "夕阳渐沉",
+      "subtitle": "卫华集团\n让世界看见中国起重",
+      "assetIds": [
+        "A06"
+      ],
+      "transition": "切"
+    },
+    {
+      "shotId": "SH07",
+      "sceneId": "SC07",
+      "seconds": 4,
+      "framing": "品牌落板",
+      "camera": "固定机位",
+      "action": "背景轻微推近，品牌文字定格",
+      "subtitle": "卫华集团\nAI 生成 · 内部预览",
+      "assetIds": [
+        "A07"
+      ],
+      "transition": "淡入淡出"
+    }
+  ],
+  "shotPrompts": [
+    {
+      "shotId": "SH01",
+      "sceneId": "SC01",
+      "duration": 10,
+      "ratio": "16:9",
+      "videoPrompt": "清晨集装箱码头全景。镜头：航拍前推。动作：海面波光，船只缓慢移动。画面无文字、字母、数字、商标、水印。",
+      "negativePrompt": "no text, no letters, no digits, no logos, no watermark",
+      "firstFrame": "/files/p_mwajj9nz_1953r/assets/A01.png",
+      "subtitle": "清晨第一吊\n决定港口节奏",
+      "narration": "清晨的第一只集装箱，决定一座港口的节奏。"
+    },
+    {
+      "shotId": "SH02",
+      "sceneId": "SC02",
+      "duration": 10,
+      "ratio": "16:9",
+      "videoPrompt": "吊具抓箱起升。镜头：低机位仰视。动作：集装箱平稳上升。画面无文字、字母、数字、商标、水印。",
+      "negativePrompt": "no text, no letters, no digits, no logos, no watermark",
+      "firstFrame": "/files/p_mwajj9nz_1953r/assets/A02.png",
+      "subtitle": "稳稳起吊\n空中一条直线",
+      "narration": "几十吨的集装箱，在空中走出一条直线。"
+    },
+    {
+      "shotId": "SH03",
+      "sceneId": "SC03",
+      "duration": 10,
+      "ratio": "16:9",
+      "videoPrompt": "多台起重设备同时作业。镜头：横移航拍。动作：吊具往复，车辆穿行。画面无文字、字母、数字、商标、水印。",
+      "negativePrompt": "no text, no letters, no digits, no logos, no watermark",
+      "firstFrame": "/files/p_mwajj9nz_1953r/assets/A03.png",
+      "subtitle": "多机协同\n庞大而有序",
+      "narration": "多台设备协同，让庞大变得有序。"
+    },
+    {
+      "shotId": "SH04",
+      "sceneId": "SC04",
+      "duration": 10,
+      "ratio": "16:9",
+      "videoPrompt": "海外工地门机作业。镜头：环绕。动作：构件缓慢就位。画面无文字、字母、数字、商标、水印。",
+      "negativePrompt": "no text, no letters, no digits, no logos, no watermark",
+      "firstFrame": "/files/p_mwajj9nz_1953r/assets/A04.png",
+      "subtitle": "走向海外\n服务全球工程",
+      "narration": "同样的设备，正在更多国家的工地运转。"
+    },
+    {
+      "shotId": "SH05",
+      "sceneId": "SC05",
+      "duration": 10,
+      "ratio": "16:9",
+      "videoPrompt": "夜间工地灯光下的吊装。镜头：固定机位。动作：灯光闪烁，吊钩移动。画面无文字、字母、数字、商标、水印。",
+      "negativePrompt": "no text, no letters, no digits, no logos, no watermark",
+      "firstFrame": "/files/p_mwajj9nz_1953r/assets/A05.png",
+      "subtitle": "夜深之后\n吊装仍在继续",
+      "narration": "夜深之后，吊装还在继续。"
+    },
+    {
+      "shotId": "SH06",
+      "sceneId": "SC06",
+      "duration": 10,
+      "ratio": "16:9",
+      "videoPrompt": "港口日落全景收束。镜头：缓慢拉远。动作：夕阳渐沉。画面无文字、字母、数字、商标、水印。",
+      "negativePrompt": "no text, no letters, no digits, no logos, no watermark",
+      "firstFrame": "/files/p_mwajj9nz_1953r/assets/A06.png",
+      "subtitle": "卫华集团\n让世界看见中国起重",
+      "narration": "卫华集团，让世界看见中国起重。"
+    },
+    {
+      "shotId": "SH07",
+      "sceneId": "SC07",
+      "duration": 4,
+      "ratio": "16:9",
+      "videoPrompt": "既有尾镜暗化，固定机位，品牌文字后期合成，4 秒静态落板。",
+      "negativePrompt": "no unofficial logo, no watermark",
+      "firstFrame": "/files/p_mwajj9nz_1953r/assets/A07.png",
+      "subtitle": "卫华集团\nAI 生成 · 内部预览",
+      "narration": "卫华集团。"
+    }
+  ],
+  "pack": {
+    "schema": "weihua.video-task-pack/v1",
+    "project": {
+      "id": "p_mwajj9nz_1953r",
+      "title": "全球工程 · 港口与远方",
+      "style": "品牌宣言",
+      "ratio": "16:9"
+    },
+    "shots": [
+      {
+        "shot_id": "SH01",
+        "duration_seconds": 10,
+        "ratio": "16:9",
+        "prompt": "清晨集装箱码头全景。镜头：航拍前推。动作：海面波光，船只缓慢移动。画面无文字、字母、数字、商标、水印。",
+        "negative_prompt": "no text, no letters, no digits, no logos, no watermark",
+        "first_frame": "/files/p_mwajj9nz_1953r/assets/A01.png",
+        "subtitle": "清晨第一吊\n决定港口节奏",
+        "narration": "清晨的第一只集装箱，决定一座港口的节奏。",
+        "status": "ready",
+        "video": "/files/p_mwajj9nz_1953r/videos/SH01.mp4"
+      },
+      {
+        "shot_id": "SH02",
+        "duration_seconds": 10,
+        "ratio": "16:9",
+        "prompt": "吊具抓箱起升。镜头：低机位仰视。动作：集装箱平稳上升。画面无文字、字母、数字、商标、水印。",
+        "negative_prompt": "no text, no letters, no digits, no logos, no watermark",
+        "first_frame": "/files/p_mwajj9nz_1953r/assets/A02.png",
+        "subtitle": "稳稳起吊\n空中一条直线",
+        "narration": "几十吨的集装箱，在空中走出一条直线。",
+        "status": "ready",
+        "video": "/files/p_mwajj9nz_1953r/videos/SH02.mp4"
+      },
+      {
+        "shot_id": "SH03",
+        "duration_seconds": 10,
+        "ratio": "16:9",
+        "prompt": "多台起重设备同时作业。镜头：横移航拍。动作：吊具往复，车辆穿行。画面无文字、字母、数字、商标、水印。",
+        "negative_prompt": "no text, no letters, no digits, no logos, no watermark",
+        "first_frame": "/files/p_mwajj9nz_1953r/assets/A03.png",
+        "subtitle": "多机协同\n庞大而有序",
+        "narration": "多台设备协同，让庞大变得有序。",
+        "status": "ready",
+        "video": "/files/p_mwajj9nz_1953r/videos/SH03.mp4"
+      },
+      {
+        "shot_id": "SH04",
+        "duration_seconds": 10,
+        "ratio": "16:9",
+        "prompt": "海外工地门机作业。镜头：环绕。动作：构件缓慢就位。画面无文字、字母、数字、商标、水印。",
+        "negative_prompt": "no text, no letters, no digits, no logos, no watermark",
+        "first_frame": "/files/p_mwajj9nz_1953r/assets/A04.png",
+        "subtitle": "走向海外\n服务全球工程",
+        "narration": "同样的设备，正在更多国家的工地运转。",
+        "status": "ready",
+        "video": "/files/p_mwajj9nz_1953r/videos/SH04.mp4"
+      },
+      {
+        "shot_id": "SH05",
+        "duration_seconds": 10,
+        "ratio": "16:9",
+        "prompt": "夜间工地灯光下的吊装。镜头：固定机位。动作：灯光闪烁，吊钩移动。画面无文字、字母、数字、商标、水印。",
+        "negative_prompt": "no text, no letters, no digits, no logos, no watermark",
+        "first_frame": "/files/p_mwajj9nz_1953r/assets/A05.png",
+        "subtitle": "夜深之后\n吊装仍在继续",
+        "narration": "夜深之后，吊装还在继续。",
+        "status": "ready",
+        "video": "/files/p_mwajj9nz_1953r/videos/SH05.mp4"
+      },
+      {
+        "shot_id": "SH06",
+        "duration_seconds": 10,
+        "ratio": "16:9",
+        "prompt": "港口日落全景收束。镜头：缓慢拉远。动作：夕阳渐沉。画面无文字、字母、数字、商标、水印。",
+        "negative_prompt": "no text, no letters, no digits, no logos, no watermark",
+        "first_frame": "/files/p_mwajj9nz_1953r/assets/A06.png",
+        "subtitle": "卫华集团\n让世界看见中国起重",
+        "narration": "卫华集团，让世界看见中国起重。",
+        "status": "ready",
+        "video": "/files/p_mwajj9nz_1953r/videos/SH06.mp4"
+      },
+      {
+        "shot_id": "SH07",
+        "duration_seconds": 4,
+        "ratio": "16:9",
+        "prompt": "既有尾镜暗化，固定机位，品牌文字后期合成，4 秒静态落板。",
+        "negative_prompt": "no unofficial logo, no watermark",
+        "first_frame": "/files/p_mwajj9nz_1953r/assets/A07.png",
+        "subtitle": "卫华集团\nAI 生成 · 内部预览",
+        "narration": "卫华集团。",
+        "status": "ready",
+        "video": "/files/p_mwajj9nz_1953r/videos/SH07.mp4"
+      }
+    ]
+  },
+  "preset": true,
+  "presetKey": "E",
+  "videos": [
+    {
+      "shotId": "SH01",
+      "status": "done",
+      "path": "C:\\Users\\temple\\AppData\\Local\\Doubao\\User Data\\Profile 3\\.doubao\\agent_mode\\workspace\\.sessions\\38452860922789634\\agents\\m_0cwe35TJ0Ab\\repo\\weihua-hackathon\\G-短视频流水线\\data\\projects\\p_mwajj9nz_1953r\\videos\\SH01.mp4",
+      "url": "/files/p_mwajj9nz_1953r/videos/SH01.mp4",
+      "seconds": 10,
+      "error": null
+    },
+    {
+      "shotId": "SH02",
+      "status": "done",
+      "path": "C:\\Users\\temple\\AppData\\Local\\Doubao\\User Data\\Profile 3\\.doubao\\agent_mode\\workspace\\.sessions\\38452860922789634\\agents\\m_0cwe35TJ0Ab\\repo\\weihua-hackathon\\G-短视频流水线\\data\\projects\\p_mwajj9nz_1953r\\videos\\SH02.mp4",
+      "url": "/files/p_mwajj9nz_1953r/videos/SH02.mp4",
+      "seconds": 10,
+      "error": null
+    },
+    {
+      "shotId": "SH03",
+      "status": "done",
+      "path": "C:\\Users\\temple\\AppData\\Local\\Doubao\\User Data\\Profile 3\\.doubao\\agent_mode\\workspace\\.sessions\\38452860922789634\\agents\\m_0cwe35TJ0Ab\\repo\\weihua-hackathon\\G-短视频流水线\\data\\projects\\p_mwajj9nz_1953r\\videos\\SH03.mp4",
+      "url": "/files/p_mwajj9nz_1953r/videos/SH03.mp4",
+      "seconds": 10,
+      "error": null
+    },
+    {
+      "shotId": "SH04",
+      "status": "done",
+      "path": "C:\\Users\\temple\\AppData\\Local\\Doubao\\User Data\\Profile 3\\.doubao\\agent_mode\\workspace\\.sessions\\38452860922789634\\agents\\m_0cwe35TJ0Ab\\repo\\weihua-hackathon\\G-短视频流水线\\data\\projects\\p_mwajj9nz_1953r\\videos\\SH04.mp4",
+      "url": "/files/p_mwajj9nz_1953r/videos/SH04.mp4",
+      "seconds": 10,
+      "error": null
+    },
+    {
+      "shotId": "SH05",
+      "status": "done",
+      "path": "C:\\Users\\temple\\AppData\\Local\\Doubao\\User Data\\Profile 3\\.doubao\\agent_mode\\workspace\\.sessions\\38452860922789634\\agents\\m_0cwe35TJ0Ab\\repo\\weihua-hackathon\\G-短视频流水线\\data\\projects\\p_mwajj9nz_1953r\\videos\\SH05.mp4",
+      "url": "/files/p_mwajj9nz_1953r/videos/SH05.mp4",
+      "seconds": 10,
+      "error": null
+    },
+    {
+      "shotId": "SH06",
+      "status": "done",
+      "path": "C:\\Users\\temple\\AppData\\Local\\Doubao\\User Data\\Profile 3\\.doubao\\agent_mode\\workspace\\.sessions\\38452860922789634\\agents\\m_0cwe35TJ0Ab\\repo\\weihua-hackathon\\G-短视频流水线\\data\\projects\\p_mwajj9nz_1953r\\videos\\SH06.mp4",
+      "url": "/files/p_mwajj9nz_1953r/videos/SH06.mp4",
+      "seconds": 10,
+      "error": null
+    },
+    {
+      "shotId": "SH07",
+      "status": "done",
+      "path": "C:\\Users\\temple\\AppData\\Local\\Doubao\\User Data\\Profile 3\\.doubao\\agent_mode\\workspace\\.sessions\\38452860922789634\\agents\\m_0cwe35TJ0Ab\\repo\\weihua-hackathon\\G-短视频流水线\\data\\projects\\p_mwajj9nz_1953r\\videos\\SH07.mp4",
+      "url": "/files/p_mwajj9nz_1953r/videos/SH07.mp4",
+      "seconds": 4,
+      "error": null
+    }
+  ],
+  "final": {
+    "status": "done",
+    "path": "final.mp4",
+    "url": "/files/p_mwajj9nz_1953r/final.mp4",
+    "seconds": 64.266667,
+    "width": 1280,
+    "height": 720,
+    "updatedAt": "2026-11-10T11:50:15.410Z"
+  }
+}

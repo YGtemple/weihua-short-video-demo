@@ -1,0 +1,57 @@
+[
+  {
+    "key": "A",
+    "projectId": "p_mwajj9mj_gog4c",
+    "shots": 7,
+    "seconds": 64.266667,
+    "bytes": 16814509,
+    "codecs": [
+      "h264",
+      "aac"
+    ]
+  },
+  {
+    "key": "B",
+    "projectId": "p_mwajj9n7_t1q2x",
+    "shots": 6,
+    "seconds": 60.3,
+    "bytes": 18535172,
+    "codecs": [
+      "h264",
+      "aac"
+    ]
+  },
+  {
+    "key": "C",
+    "projectId": "p_mwajj9nq_hgoti",
+    "shots": 7,
+    "seconds": 64.266667,
+    "bytes": 21293099,
+    "codecs": [
+      "h264",
+      "aac"
+    ]
+  },
+  {
+    "key": "D",
+    "projectId": "p_mwajj9nu_mh5o0",
+    "shots": 6,
+    "seconds": 60.3,
+    "bytes": 18137763,
+    "codecs": [
+      "h264",
+      "aac"
+    ]
+  },
+  {
+    "key": "E",
+    "projectId": "p_mwajj9nz_1953r",
+    "shots": 7,
+    "seconds": 64.266667,
+    "bytes": 20565176,
+    "codecs": [
+      "h264",
+      "aac"
+    ]
+  }
+]

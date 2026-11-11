@@ -1,0 +1,555 @@
+{
+  "id": "p_mwajj9nu_mh5o0",
+  "title": "智能制造 · 一台门机的诞生",
+  "brief": "卫华智能制造车间纪实短片，从钢板到整机出厂",
+  "style": "工业史诗",
+  "ratio": "16:9",
+  "durationTarget": 60,
+  "sceneCount": 6,
+  "variant": 1,
+  "createdAt": "2026-11-10T10:21:58.315Z",
+  "status": "complete",
+  "stages": {
+    "analysis": {
+      "status": "done",
+      "finishedAt": "2026-11-10T10:21:58.316Z"
+    },
+    "script": {
+      "status": "done",
+      "finishedAt": "2026-11-10T10:21:58.316Z"
+    },
+    "artPrompts": {
+      "status": "done",
+      "finishedAt": "2026-11-10T10:21:58.316Z"
+    },
+    "storyboard": {
+      "status": "done",
+      "finishedAt": "2026-11-10T10:21:58.316Z"
+    },
+    "shotPrompts": {
+      "status": "done",
+      "finishedAt": "2026-11-10T10:21:58.316Z"
+    },
+    "assets": {
+      "status": "done",
+      "finishedAt": "2026-11-10T11:15:41.361Z"
+    },
+    "pack": {
+      "status": "done",
+      "finishedAt": "2026-11-10T11:15:41.361Z"
+    }
+  },
+  "logs": [
+    {
+      "at": "2026-11-10T10:21:58.316Z",
+      "stage": "preset",
+      "message": "预置工程已创建，等待美术与视频回填"
+    },
+    {
+      "at": "2026-11-10T11:15:41.361Z",
+      "stage": "preset",
+      "message": "预置资产回填：美术 6/6，视频 6/6"
+    },
+    {
+      "at": "2026-11-10T11:31:03.641Z",
+      "stage": "preset",
+      "message": "差异化升级：6 镜，目标成片 60 秒"
+    },
+    {
+      "at": "2026-11-10T11:50:15.335Z",
+      "stage": "final",
+      "message": "最终成片已合成：6 镜，60.300 秒，带字幕 MP4"
+    }
+  ],
+  "analysis": {
+    "theme": "智能制造 · 一台门机的诞生",
+    "audience": "集团领导、客户与评审评委",
+    "hook": "一台3800吨级门机，从一块钢板开始。",
+    "keyMessage": [
+      "一台门机 从一块钢板开始",
+      "数控切割 精确到毫米级工艺",
+      "机器人焊接 焊缝一致",
+      "整机装配 模块化合体",
+      "出厂检验 满载验证",
+      "从卫华出发 奔赴工程现场"
+    ],
+    "tone": "工业史诗",
+    "visualStyle": "工业史诗电影感，写实摄影，暖橙与钢青对比，尘雾与体积光，16:9 横版，画面中不出现任何文字、字母、数字、商标、logo、水印",
+    "constraints": [
+      "参数仅来自事实库，类比换算标注估算基准与非实测",
+      "新中式 30% 对外口径未签核，稿件标注待签核",
+      "AI 生成画面不含文字与商标，品牌字由后期合成"
+    ],
+    "source": "preset"
+  },
+  "script": {
+    "title": "智能制造 · 一台门机的诞生",
+    "totalSeconds": 60,
+    "scenes": [
+      {
+        "id": "SC01",
+        "title": "钢板开局",
+        "seconds": 10,
+        "narration": "一台3800吨级门机，从一块钢板开始。",
+        "subtitle": "一台门机\n从一块钢板开始",
+        "visual": "整卷钢板与原材料堆场",
+        "act": "预设"
+      },
+      {
+        "id": "SC02",
+        "title": "数控切割",
+        "seconds": 10,
+        "narration": "数控切割，把图纸变成精确的轮廓。",
+        "subtitle": "数控切割\n精确到毫米级工艺",
+        "visual": "数控等离子切割火花",
+        "act": "预设"
+      },
+      {
+        "id": "SC03",
+        "title": "机器人焊接",
+        "seconds": 10,
+        "narration": "焊接机器人，让每一条焊缝保持一致。",
+        "subtitle": "机器人焊接\n焊缝一致",
+        "visual": "焊接机器人作业",
+        "act": "预设"
+      },
+      {
+        "id": "SC04",
+        "title": "整机装配",
+        "seconds": 10,
+        "narration": "主梁、端梁、小车，在装配线上合体。",
+        "subtitle": "整机装配\n模块化合体",
+        "visual": "巨型主梁装配现场",
+        "act": "预设"
+      },
+      {
+        "id": "SC05",
+        "title": "出厂检验",
+        "seconds": 10,
+        "narration": "每一台设备，都要通过出厂前的满载验证。",
+        "subtitle": "出厂检验\n满载验证",
+        "visual": "试验台上的整机测试",
+        "act": "预设"
+      },
+      {
+        "id": "SC06",
+        "title": "发运",
+        "seconds": 10,
+        "narration": "从卫华出发，去更大的工程现场。",
+        "subtitle": "从卫华出发\n奔赴工程现场",
+        "visual": "大型运输车队出厂",
+        "act": "预设"
+      }
+    ]
+  },
+  "artPrompts": [
+    {
+      "assetId": "A01",
+      "name": "SC01 钢板开局",
+      "type": "背景",
+      "prompt": "钢材堆场，钢板整齐码放，晨光，工业史诗电影感，写实摄影，暖橙与钢青对比，尘雾与体积光，16:9 横版，画面中不出现任何文字、字母、数字、商标、logo、水印",
+      "negative": "no text, no letters, no digits, no logos, no watermark",
+      "size": "1600x900",
+      "sceneIds": [
+        "SC01"
+      ]
+    },
+    {
+      "assetId": "A02",
+      "name": "SC02 数控切割",
+      "type": "背景",
+      "prompt": "数控切割设备切割钢板，火花飞溅，工业史诗电影感，写实摄影，暖橙与钢青对比，尘雾与体积光，16:9 横版，画面中不出现任何文字、字母、数字、商标、logo、水印",
+      "negative": "no text, no letters, no digits, no logos, no watermark",
+      "size": "1600x900",
+      "sceneIds": [
+        "SC02"
+      ]
+    },
+    {
+      "assetId": "A03",
+      "name": "SC03 机器人焊接",
+      "type": "背景",
+      "prompt": "工业焊接机器人对大型钢结构焊接，弧光，工业史诗电影感，写实摄影，暖橙与钢青对比，尘雾与体积光，16:9 横版，画面中不出现任何文字、字母、数字、商标、logo、水印",
+      "negative": "no text, no letters, no digits, no logos, no watermark",
+      "size": "1600x900",
+      "sceneIds": [
+        "SC03"
+      ]
+    },
+    {
+      "assetId": "A04",
+      "name": "SC04 整机装配",
+      "type": "背景",
+      "prompt": "巨型门机主梁在装配车间吊装合拢，工业史诗电影感，写实摄影，暖橙与钢青对比，尘雾与体积光，16:9 横版，画面中不出现任何文字、字母、数字、商标、logo、水印",
+      "negative": "no text, no letters, no digits, no logos, no watermark",
+      "size": "1600x900",
+      "sceneIds": [
+        "SC04"
+      ]
+    },
+    {
+      "assetId": "A05",
+      "name": "SC05 出厂检验",
+      "type": "背景",
+      "prompt": "大型起重机试验台，吊起配重块，工业史诗电影感，写实摄影，暖橙与钢青对比，尘雾与体积光，16:9 横版，画面中不出现任何文字、字母、数字、商标、logo、水印",
+      "negative": "no text, no letters, no digits, no logos, no watermark",
+      "size": "1600x900",
+      "sceneIds": [
+        "SC05"
+      ]
+    },
+    {
+      "assetId": "A06",
+      "name": "SC06 发运",
+      "type": "背景",
+      "prompt": "大型平板运输车装载构件驶出厂区，工业史诗电影感，写实摄影，暖橙与钢青对比，尘雾与体积光，16:9 横版，画面中不出现任何文字、字母、数字、商标、logo、水印",
+      "negative": "no text, no letters, no digits, no logos, no watermark",
+      "size": "1600x900",
+      "sceneIds": [
+        "SC06"
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "assetId": "A01",
+      "status": "done",
+      "path": "C:\\Users\\temple\\AppData\\Local\\Doubao\\User Data\\Profile 3\\.doubao\\agent_mode\\workspace\\.sessions\\38452860922789634\\agents\\m_0cwe35TJ0Ab\\repo\\weihua-hackathon\\G-短视频流水线\\data\\projects\\p_mwajj9nu_mh5o0\\assets\\A01.png",
+      "url": "/files/p_mwajj9nu_mh5o0/assets/A01.png",
+      "error": null,
+      "updatedAt": "2026-11-10T11:15:30.962Z"
+    },
+    {
+      "assetId": "A02",
+      "status": "done",
+      "path": "C:\\Users\\temple\\AppData\\Local\\Doubao\\User Data\\Profile 3\\.doubao\\agent_mode\\workspace\\.sessions\\38452860922789634\\agents\\m_0cwe35TJ0Ab\\repo\\weihua-hackathon\\G-短视频流水线\\data\\projects\\p_mwajj9nu_mh5o0\\assets\\A02.png",
+      "url": "/files/p_mwajj9nu_mh5o0/assets/A02.png",
+      "error": null,
+      "updatedAt": "2026-11-10T11:15:32.200Z"
+    },
+    {
+      "assetId": "A03",
+      "status": "done",
+      "path": "C:\\Users\\temple\\AppData\\Local\\Doubao\\User Data\\Profile 3\\.doubao\\agent_mode\\workspace\\.sessions\\38452860922789634\\agents\\m_0cwe35TJ0Ab\\repo\\weihua-hackathon\\G-短视频流水线\\data\\projects\\p_mwajj9nu_mh5o0\\assets\\A03.png",
+      "url": "/files/p_mwajj9nu_mh5o0/assets/A03.png",
+      "error": null,
+      "updatedAt": "2026-11-10T11:15:33.565Z"
+    },
+    {
+      "assetId": "A04",
+      "status": "done",
+      "path": "C:\\Users\\temple\\AppData\\Local\\Doubao\\User Data\\Profile 3\\.doubao\\agent_mode\\workspace\\.sessions\\38452860922789634\\agents\\m_0cwe35TJ0Ab\\repo\\weihua-hackathon\\G-短视频流水线\\data\\projects\\p_mwajj9nu_mh5o0\\assets\\A04.png",
+      "url": "/files/p_mwajj9nu_mh5o0/assets/A04.png",
+      "error": null,
+      "updatedAt": "2026-11-10T11:15:35.307Z"
+    },
+    {
+      "assetId": "A05",
+      "status": "done",
+      "path": "C:\\Users\\temple\\AppData\\Local\\Doubao\\User Data\\Profile 3\\.doubao\\agent_mode\\workspace\\.sessions\\38452860922789634\\agents\\m_0cwe35TJ0Ab\\repo\\weihua-hackathon\\G-短视频流水线\\data\\projects\\p_mwajj9nu_mh5o0\\assets\\A05.png",
+      "url": "/files/p_mwajj9nu_mh5o0/assets/A05.png",
+      "error": null,
+      "updatedAt": "2026-11-10T11:15:38.330Z"
+    },
+    {
+      "assetId": "A06",
+      "status": "done",
+      "path": "C:\\Users\\temple\\AppData\\Local\\Doubao\\User Data\\Profile 3\\.doubao\\agent_mode\\workspace\\.sessions\\38452860922789634\\agents\\m_0cwe35TJ0Ab\\repo\\weihua-hackathon\\G-短视频流水线\\data\\projects\\p_mwajj9nu_mh5o0\\assets\\A06.png",
+      "url": "/files/p_mwajj9nu_mh5o0/assets/A06.png",
+      "error": null,
+      "updatedAt": "2026-11-10T11:15:40.316Z"
+    }
+  ],
+  "storyboard": [
+    {
+      "shotId": "SH01",
+      "sceneId": "SC01",
+      "seconds": 10,
+      "framing": "全景/特写",
+      "camera": "横移",
+      "action": "天车吊运钢板",
+      "subtitle": "一台门机\n从一块钢板开始",
+      "assetIds": [
+        "A01"
+      ],
+      "transition": "切"
+    },
+    {
+      "shotId": "SH02",
+      "sceneId": "SC02",
+      "seconds": 10,
+      "framing": "全景/特写",
+      "camera": "俯拍固定",
+      "action": "切割头行进，火花飞溅",
+      "subtitle": "数控切割\n精确到毫米级工艺",
+      "assetIds": [
+        "A02"
+      ],
+      "transition": "切"
+    },
+    {
+      "shotId": "SH03",
+      "sceneId": "SC03",
+      "seconds": 10,
+      "framing": "全景/特写",
+      "camera": "环绕",
+      "action": "机械臂稳定移动",
+      "subtitle": "机器人焊接\n焊缝一致",
+      "assetIds": [
+        "A03"
+      ],
+      "transition": "切"
+    },
+    {
+      "shotId": "SH04",
+      "sceneId": "SC04",
+      "seconds": 10,
+      "framing": "全景/特写",
+      "camera": "低机位推近",
+      "action": "主梁缓慢就位",
+      "subtitle": "整机装配\n模块化合体",
+      "assetIds": [
+        "A04"
+      ],
+      "transition": "切"
+    },
+    {
+      "shotId": "SH05",
+      "sceneId": "SC05",
+      "seconds": 10,
+      "framing": "全景/特写",
+      "camera": "固定机位",
+      "action": "配重缓慢离地",
+      "subtitle": "出厂检验\n满载验证",
+      "assetIds": [
+        "A05"
+      ],
+      "transition": "切"
+    },
+    {
+      "shotId": "SH06",
+      "sceneId": "SC06",
+      "seconds": 10,
+      "framing": "全景/特写",
+      "camera": "跟拍",
+      "action": "车队缓缓驶出",
+      "subtitle": "从卫华出发\n奔赴工程现场",
+      "assetIds": [
+        "A06"
+      ],
+      "transition": "切"
+    }
+  ],
+  "shotPrompts": [
+    {
+      "shotId": "SH01",
+      "sceneId": "SC01",
+      "duration": 10,
+      "ratio": "16:9",
+      "videoPrompt": "整卷钢板与原材料堆场。镜头：横移。动作：天车吊运钢板。画面无文字、字母、数字、商标、水印。",
+      "negativePrompt": "no text, no letters, no digits, no logos, no watermark",
+      "firstFrame": "/files/p_mwajj9nu_mh5o0/assets/A01.png",
+      "subtitle": "一台门机\n从一块钢板开始",
+      "narration": "一台3800吨级门机，从一块钢板开始。"
+    },
+    {
+      "shotId": "SH02",
+      "sceneId": "SC02",
+      "duration": 10,
+      "ratio": "16:9",
+      "videoPrompt": "数控等离子切割火花。镜头：俯拍固定。动作：切割头行进，火花飞溅。画面无文字、字母、数字、商标、水印。",
+      "negativePrompt": "no text, no letters, no digits, no logos, no watermark",
+      "firstFrame": "/files/p_mwajj9nu_mh5o0/assets/A02.png",
+      "subtitle": "数控切割\n精确到毫米级工艺",
+      "narration": "数控切割，把图纸变成精确的轮廓。"
+    },
+    {
+      "shotId": "SH03",
+      "sceneId": "SC03",
+      "duration": 10,
+      "ratio": "16:9",
+      "videoPrompt": "焊接机器人作业。镜头：环绕。动作：机械臂稳定移动。画面无文字、字母、数字、商标、水印。",
+      "negativePrompt": "no text, no letters, no digits, no logos, no watermark",
+      "firstFrame": "/files/p_mwajj9nu_mh5o0/assets/A03.png",
+      "subtitle": "机器人焊接\n焊缝一致",
+      "narration": "焊接机器人，让每一条焊缝保持一致。"
+    },
+    {
+      "shotId": "SH04",
+      "sceneId": "SC04",
+      "duration": 10,
+      "ratio": "16:9",
+      "videoPrompt": "巨型主梁装配现场。镜头：低机位推近。动作：主梁缓慢就位。画面无文字、字母、数字、商标、水印。",
+      "negativePrompt": "no text, no letters, no digits, no logos, no watermark",
+      "firstFrame": "/files/p_mwajj9nu_mh5o0/assets/A04.png",
+      "subtitle": "整机装配\n模块化合体",
+      "narration": "主梁、端梁、小车，在装配线上合体。"
+    },
+    {
+      "shotId": "SH05",
+      "sceneId": "SC05",
+      "duration": 10,
+      "ratio": "16:9",
+      "videoPrompt": "试验台上的整机测试。镜头：固定机位。动作：配重缓慢离地。画面无文字、字母、数字、商标、水印。",
+      "negativePrompt": "no text, no letters, no digits, no logos, no watermark",
+      "firstFrame": "/files/p_mwajj9nu_mh5o0/assets/A05.png",
+      "subtitle": "出厂检验\n满载验证",
+      "narration": "每一台设备，都要通过出厂前的满载验证。"
+    },
+    {
+      "shotId": "SH06",
+      "sceneId": "SC06",
+      "duration": 10,
+      "ratio": "16:9",
+      "videoPrompt": "大型运输车队出厂。镜头：跟拍。动作：车队缓缓驶出。画面无文字、字母、数字、商标、水印。",
+      "negativePrompt": "no text, no letters, no digits, no logos, no watermark",
+      "firstFrame": "/files/p_mwajj9nu_mh5o0/assets/A06.png",
+      "subtitle": "从卫华出发\n奔赴工程现场",
+      "narration": "从卫华出发，去更大的工程现场。"
+    }
+  ],
+  "pack": {
+    "schema": "weihua.video-task-pack/v1",
+    "project": {
+      "id": "p_mwajj9nu_mh5o0",
+      "title": "智能制造 · 一台门机的诞生",
+      "style": "工业史诗",
+      "ratio": "16:9"
+    },
+    "shots": [
+      {
+        "shot_id": "SH01",
+        "duration_seconds": 10,
+        "ratio": "16:9",
+        "prompt": "整卷钢板与原材料堆场。镜头：横移。动作：天车吊运钢板。画面无文字、字母、数字、商标、水印。",
+        "negative_prompt": "no text, no letters, no digits, no logos, no watermark",
+        "first_frame": "/files/p_mwajj9nu_mh5o0/assets/A01.png",
+        "subtitle": "一台门机\n从一块钢板开始",
+        "narration": "一台3800吨级门机，从一块钢板开始。",
+        "status": "ready",
+        "video": "/files/p_mwajj9nu_mh5o0/videos/SH01.mp4"
+      },
+      {
+        "shot_id": "SH02",
+        "duration_seconds": 10,
+        "ratio": "16:9",
+        "prompt": "数控等离子切割火花。镜头：俯拍固定。动作：切割头行进，火花飞溅。画面无文字、字母、数字、商标、水印。",
+        "negative_prompt": "no text, no letters, no digits, no logos, no watermark",
+        "first_frame": "/files/p_mwajj9nu_mh5o0/assets/A02.png",
+        "subtitle": "数控切割\n精确到毫米级工艺",
+        "narration": "数控切割，把图纸变成精确的轮廓。",
+        "status": "ready",
+        "video": "/files/p_mwajj9nu_mh5o0/videos/SH02.mp4"
+      },
+      {
+        "shot_id": "SH03",
+        "duration_seconds": 10,
+        "ratio": "16:9",
+        "prompt": "焊接机器人作业。镜头：环绕。动作：机械臂稳定移动。画面无文字、字母、数字、商标、水印。",
+        "negative_prompt": "no text, no letters, no digits, no logos, no watermark",
+        "first_frame": "/files/p_mwajj9nu_mh5o0/assets/A03.png",
+        "subtitle": "机器人焊接\n焊缝一致",
+        "narration": "焊接机器人，让每一条焊缝保持一致。",
+        "status": "ready",
+        "video": "/files/p_mwajj9nu_mh5o0/videos/SH03.mp4"
+      },
+      {
+        "shot_id": "SH04",
+        "duration_seconds": 10,
+        "ratio": "16:9",
+        "prompt": "巨型主梁装配现场。镜头：低机位推近。动作：主梁缓慢就位。画面无文字、字母、数字、商标、水印。",
+        "negative_prompt": "no text, no letters, no digits, no logos, no watermark",
+        "first_frame": "/files/p_mwajj9nu_mh5o0/assets/A04.png",
+        "subtitle": "整机装配\n模块化合体",
+        "narration": "主梁、端梁、小车，在装配线上合体。",
+        "status": "ready",
+        "video": "/files/p_mwajj9nu_mh5o0/videos/SH04.mp4"
+      },
+      {
+        "shot_id": "SH05",
+        "duration_seconds": 10,
+        "ratio": "16:9",
+        "prompt": "试验台上的整机测试。镜头：固定机位。动作：配重缓慢离地。画面无文字、字母、数字、商标、水印。",
+        "negative_prompt": "no text, no letters, no digits, no logos, no watermark",
+        "first_frame": "/files/p_mwajj9nu_mh5o0/assets/A05.png",
+        "subtitle": "出厂检验\n满载验证",
+        "narration": "每一台设备，都要通过出厂前的满载验证。",
+        "status": "ready",
+        "video": "/files/p_mwajj9nu_mh5o0/videos/SH05.mp4"
+      },
+      {
+        "shot_id": "SH06",
+        "duration_seconds": 10,
+        "ratio": "16:9",
+        "prompt": "大型运输车队出厂。镜头：跟拍。动作：车队缓缓驶出。画面无文字、字母、数字、商标、水印。",
+        "negative_prompt": "no text, no letters, no digits, no logos, no watermark",
+        "first_frame": "/files/p_mwajj9nu_mh5o0/assets/A06.png",
+        "subtitle": "从卫华出发\n奔赴工程现场",
+        "narration": "从卫华出发，去更大的工程现场。",
+        "status": "ready",
+        "video": "/files/p_mwajj9nu_mh5o0/videos/SH06.mp4"
+      }
+    ]
+  },
+  "preset": true,
+  "presetKey": "D",
+  "videos": [
+    {
+      "shotId": "SH01",
+      "status": "done",
+      "path": "C:\\Users\\temple\\AppData\\Local\\Doubao\\User Data\\Profile 3\\.doubao\\agent_mode\\workspace\\.sessions\\38452860922789634\\agents\\m_0cwe35TJ0Ab\\repo\\weihua-hackathon\\G-短视频流水线\\data\\projects\\p_mwajj9nu_mh5o0\\videos\\SH01.mp4",
+      "url": "/files/p_mwajj9nu_mh5o0/videos/SH01.mp4",
+      "seconds": 10,
+      "error": null
+    },
+    {
+      "shotId": "SH02",
+      "status": "done",
+      "path": "C:\\Users\\temple\\AppData\\Local\\Doubao\\User Data\\Profile 3\\.doubao\\agent_mode\\workspace\\.sessions\\38452860922789634\\agents\\m_0cwe35TJ0Ab\\repo\\weihua-hackathon\\G-短视频流水线\\data\\projects\\p_mwajj9nu_mh5o0\\videos\\SH02.mp4",
+      "url": "/files/p_mwajj9nu_mh5o0/videos/SH02.mp4",
+      "seconds": 10,
+      "error": null
+    },
+    {
+      "shotId": "SH03",
+      "status": "done",
+      "path": "C:\\Users\\temple\\AppData\\Local\\Doubao\\User Data\\Profile 3\\.doubao\\agent_mode\\workspace\\.sessions\\38452860922789634\\agents\\m_0cwe35TJ0Ab\\repo\\weihua-hackathon\\G-短视频流水线\\data\\projects\\p_mwajj9nu_mh5o0\\videos\\SH03.mp4",
+      "url": "/files/p_mwajj9nu_mh5o0/videos/SH03.mp4",
+      "seconds": 10,
+      "error": null
+    },
+    {
+      "shotId": "SH04",
+      "status": "done",
+      "path": "C:\\Users\\temple\\AppData\\Local\\Doubao\\User Data\\Profile 3\\.doubao\\agent_mode\\workspace\\.sessions\\38452860922789634\\agents\\m_0cwe35TJ0Ab\\repo\\weihua-hackathon\\G-短视频流水线\\data\\projects\\p_mwajj9nu_mh5o0\\videos\\SH04.mp4",
+      "url": "/files/p_mwajj9nu_mh5o0/videos/SH04.mp4",
+      "seconds": 10,
+      "error": null
+    },
+    {
+      "shotId": "SH05",
+      "status": "done",
+      "path": "C:\\Users\\temple\\AppData\\Local\\Doubao\\User Data\\Profile 3\\.doubao\\agent_mode\\workspace\\.sessions\\38452860922789634\\agents\\m_0cwe35TJ0Ab\\repo\\weihua-hackathon\\G-短视频流水线\\data\\projects\\p_mwajj9nu_mh5o0\\videos\\SH05.mp4",
+      "url": "/files/p_mwajj9nu_mh5o0/videos/SH05.mp4",
+      "seconds": 10,
+      "error": null
+    },
+    {
+      "shotId": "SH06",
+      "status": "done",
+      "path": "C:\\Users\\temple\\AppData\\Local\\Doubao\\User Data\\Profile 3\\.doubao\\agent_mode\\workspace\\.sessions\\38452860922789634\\agents\\m_0cwe35TJ0Ab\\repo\\weihua-hackathon\\G-短视频流水线\\data\\projects\\p_mwajj9nu_mh5o0\\videos\\SH06.mp4",
+      "url": "/files/p_mwajj9nu_mh5o0/videos/SH06.mp4",
+      "seconds": 10,
+      "error": null
+    }
+  ],
+  "final": {
+    "status": "done",
+    "path": "final.mp4",
+    "url": "/files/p_mwajj9nu_mh5o0/final.mp4",
+    "seconds": 60.3,
+    "width": 1280,
+    "height": 720,
+    "updatedAt": "2026-11-10T11:50:15.335Z"
+  }
+}
