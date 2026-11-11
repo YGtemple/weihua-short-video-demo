@@ -1,0 +1,95 @@
+{
+  "schema": "weihua.video-task-pack/v1",
+  "project": {
+    "id": "p_mwajj9nq_hgoti",
+    "title": "新中式 · 低 30% 的底气",
+    "style": "工业史诗",
+    "ratio": "16:9"
+  },
+  "shots": [
+    {
+      "shot_id": "SH01",
+      "duration_seconds": 10,
+      "ratio": "16:9",
+      "prompt": "低净空厂房内部，顶部空间有限。镜头：低机位前推。动作：灯光逐排点亮。画面无文字、字母、数字、商标、水印。",
+      "negative_prompt": "no text, no letters, no digits, no logos, no watermark",
+      "first_frame": "/files/p_mwajj9nq_hgoti/assets/A01.png",
+      "subtitle": "厂房不够高\n起重机怎么进",
+      "narration": "厂房不够高，起重机就进不去吗？",
+      "status": "ready",
+      "video": "/files/p_mwajj9nq_hgoti/videos/SH01.mp4"
+    },
+    {
+      "shot_id": "SH02",
+      "duration_seconds": 10,
+      "ratio": "16:9",
+      "prompt": "结构紧凑的新型桥式起重机。镜头：环绕展示。动作：小车沿主梁缓慢移动。画面无文字、字母、数字、商标、水印。",
+      "negative_prompt": "no text, no letters, no digits, no logos, no watermark",
+      "first_frame": "/files/p_mwajj9nq_hgoti/assets/A02.png",
+      "subtitle": "新中式系列\n整机高度降低",
+      "narration": "新中式系列，把整机高度降下来。",
+      "status": "ready",
+      "video": "/files/p_mwajj9nq_hgoti/videos/SH02.mp4"
+    },
+    {
+      "shot_id": "SH03",
+      "duration_seconds": 10,
+      "ratio": "16:9",
+      "prompt": "新旧两台起重机轮廓对比。镜头：固定机位。动作：镜头缓慢横移对比。画面无文字、字母、数字、商标、水印。",
+      "negative_prompt": "no text, no letters, no digits, no logos, no watermark",
+      "first_frame": "/files/p_mwajj9nq_hgoti/assets/A03.png",
+      "subtitle": "高度降低约 30%\n口径待签核",
+      "narration": "较传统起重机高度降低约30%，对外发布口径以品牌部签核为准。",
+      "status": "ready",
+      "video": "/files/p_mwajj9nq_hgoti/videos/SH03.mp4"
+    },
+    {
+      "shot_id": "SH04",
+      "duration_seconds": 10,
+      "ratio": "16:9",
+      "prompt": "主梁与端梁连接细节。镜头：微距横移。动作：光影扫过金属表面。画面无文字、字母、数字、商标、水印。",
+      "negative_prompt": "no text, no letters, no digits, no logos, no watermark",
+      "first_frame": "/files/p_mwajj9nq_hgoti/assets/A04.png",
+      "subtitle": "紧凑结构\n释放净空",
+      "narration": "紧凑型结构，把每一厘米都用在有效空间里。",
+      "status": "ready",
+      "video": "/files/p_mwajj9nq_hgoti/videos/SH04.mp4"
+    },
+    {
+      "shot_id": "SH05",
+      "duration_seconds": 10,
+      "ratio": "16:9",
+      "prompt": "低净空厂房内平稳吊运。镜头：跟拍。动作：吊具平稳前行。画面无文字、字母、数字、商标、水印。",
+      "negative_prompt": "no text, no letters, no digits, no logos, no watermark",
+      "first_frame": "/files/p_mwajj9nq_hgoti/assets/A05.png",
+      "subtitle": "既有厂房\n平稳起吊",
+      "narration": "在既有厂房里，也能平稳起吊。",
+      "status": "ready",
+      "video": "/files/p_mwajj9nq_hgoti/videos/SH05.mp4"
+    },
+    {
+      "shot_id": "SH06",
+      "duration_seconds": 10,
+      "ratio": "16:9",
+      "prompt": "厂房门口逆光收束。镜头：缓慢拉远。动作：光线渐亮。画面无文字、字母、数字、商标、水印。",
+      "negative_prompt": "no text, no letters, no digits, no logos, no watermark",
+      "first_frame": "/files/p_mwajj9nq_hgoti/assets/A06.png",
+      "subtitle": "卫华新中式\n让空间不设限",
+      "narration": "卫华新中式，让空间不再成为限制。",
+      "status": "ready",
+      "video": "/files/p_mwajj9nq_hgoti/videos/SH06.mp4"
+    },
+    {
+      "shot_id": "SH07",
+      "duration_seconds": 4,
+      "ratio": "16:9",
+      "prompt": "既有尾镜暗化，固定机位，品牌文字后期合成，4 秒静态落板。",
+      "negative_prompt": "no unofficial logo, no watermark",
+      "first_frame": "/files/p_mwajj9nq_hgoti/assets/A07.png",
+      "subtitle": "卫华集团\nAI 生成演示 · 内部预览",
+      "narration": "卫华集团。",
+      "status": "ready",
+      "video": "/files/p_mwajj9nq_hgoti/videos/SH07.mp4"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "schema": "weihua.video-task-pack/v1",
+  "project": {
+    "id": "p_mwajj9nz_1953r",
+    "title": "全球工程 · 港口与远方",
+    "style": "品牌宣言",
+    "ratio": "16:9"
+  },
+  "shots": [
+    {
+      "shot_id": "SH01",
+      "duration_seconds": 10,
+      "ratio": "16:9",
+      "prompt": "清晨集装箱码头全景。镜头：航拍前推。动作：海面波光，船只缓慢移动。画面无文字、字母、数字、商标、水印。",
+      "negative_prompt": "no text, no letters, no digits, no logos, no watermark",
+      "first_frame": "/files/p_mwajj9nz_1953r/assets/A01.png",
+      "subtitle": "清晨第一吊\n决定港口节奏",
+      "narration": "清晨的第一只集装箱，决定一座港口的节奏。",
+      "status": "ready",
+      "video": "/files/p_mwajj9nz_1953r/videos/SH01.mp4"
+    },
+    {
+      "shot_id": "SH02",
+      "duration_seconds": 10,
+      "ratio": "16:9",
+      "prompt": "吊具抓箱起升。镜头：低机位仰视。动作：集装箱平稳上升。画面无文字、字母、数字、商标、水印。",
+      "negative_prompt": "no text, no letters, no digits, no logos, no watermark",
+      "first_frame": "/files/p_mwajj9nz_1953r/assets/A02.png",
+      "subtitle": "稳稳起吊\n空中一条直线",
+      "narration": "几十吨的集装箱，在空中走出一条直线。",
+      "status": "ready",
+      "video": "/files/p_mwajj9nz_1953r/videos/SH02.mp4"
+    },
+    {
+      "shot_id": "SH03",
+      "duration_seconds": 10,
+      "ratio": "16:9",
+      "prompt": "多台起重设备同时作业。镜头：横移航拍。动作：吊具往复，车辆穿行。画面无文字、字母、数字、商标、水印。",
+      "negative_prompt": "no text, no letters, no digits, no logos, no watermark",
+      "first_frame": "/files/p_mwajj9nz_1953r/assets/A03.png",
+      "subtitle": "多机协同\n庞大而有序",
+      "narration": "多台设备协同，让庞大变得有序。",
+      "status": "ready",
+      "video": "/files/p_mwajj9nz_1953r/videos/SH03.mp4"
+    },
+    {
+      "shot_id": "SH04",
+      "duration_seconds": 10,
+      "ratio": "16:9",
+      "prompt": "海外工地门机作业。镜头：环绕。动作：构件缓慢就位。画面无文字、字母、数字、商标、水印。",
+      "negative_prompt": "no text, no letters, no digits, no logos, no watermark",
+      "first_frame": "/files/p_mwajj9nz_1953r/assets/A04.png",
+      "subtitle": "走向海外\n服务全球工程",
+      "narration": "同样的设备，正在更多国家的工地运转。",
+      "status": "ready",
+      "video": "/files/p_mwajj9nz_1953r/videos/SH04.mp4"
+    },
+    {
+      "shot_id": "SH05",
+      "duration_seconds": 10,
+      "ratio": "16:9",
+      "prompt": "夜间工地灯光下的吊装。镜头：固定机位。动作：灯光闪烁，吊钩移动。画面无文字、字母、数字、商标、水印。",
+      "negative_prompt": "no text, no letters, no digits, no logos, no watermark",
+      "first_frame": "/files/p_mwajj9nz_1953r/assets/A05.png",
+      "subtitle": "夜深之后\n吊装仍在继续",
+      "narration": "夜深之后，吊装还在继续。",
+      "status": "ready",
+      "video": "/files/p_mwajj9nz_1953r/videos/SH05.mp4"
+    },
+    {
+      "shot_id": "SH06",
+      "duration_seconds": 10,
+      "ratio": "16:9",
+      "prompt": "港口日落全景收束。镜头：缓慢拉远。动作：夕阳渐沉。画面无文字、字母、数字、商标、水印。",
+      "negative_prompt": "no text, no letters, no digits, no logos, no watermark",
+      "first_frame": "/files/p_mwajj9nz_1953r/assets/A06.png",
+      "subtitle": "卫华集团\n让世界看见中国起重",
+      "narration": "卫华集团，让世界看见中国起重。",
+      "status": "ready",
+      "video": "/files/p_mwajj9nz_1953r/videos/SH06.mp4"
+    },
+    {
+      "shot_id": "SH07",
+      "duration_seconds": 4,
+      "ratio": "16:9",
+      "prompt": "既有尾镜暗化，固定机位，品牌文字后期合成，4 秒静态落板。",
+      "negative_prompt": "no unofficial logo, no watermark",
+      "first_frame": "/files/p_mwajj9nz_1953r/assets/A07.png",
+      "subtitle": "卫华集团\nAI 生成演示 · 内部预览",
+      "narration": "卫华集团。",
+      "status": "ready",
+      "video": "/files/p_mwajj9nz_1953r/videos/SH07.mp4"
+    }
+  ]
+}

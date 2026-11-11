@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>卫华短视频流水线 · GitHub Pages 在线演示</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-mark">卫</span>
+      <div>
+        <h1>卫华短视频流水线 <span class="tag">GitHub Pages 在线演示</span></h1>
+        <p>一句话创意 → 分析 → 剧本 → 美术提示词 → 美术资产 → 分镜 → 每镜提示词 → 视频任务包</p>
+      </div>
+    </div>
+    <nav class="nav">
+      <button class="nav-btn active" data-view="demo">演示中心</button>
+      <button class="nav-btn" data-view="workflow">工作流画布</button>
+      <button class="nav-btn" data-view="create">一键制作</button>
+      <button class="nav-btn" id="openSettings">通道设置</button>
+    </nav>
+  </header>
+
+  <main>
+    <div class="static-banner"><b>在线预制演示</b><span>五套工程与全部媒体已静态发布，点击即可查看；不会请求模型、保存数据或产生费用。</span><a href="https://github.com/YGtemple/weihua-short-video-demo" target="_blank" rel="noreferrer">查看 GitHub 仓库 →</a></div>
+    <!-- 演示中心 -->
+    <section id="view-demo" class="view">
+      <div class="hero card">
+        <div>
+          <h2>预制演示工程</h2>
+          <p class="muted">五套完整工程已预制：七阶段产物 + 每镜美术首帧 + 真实镜头视频 + 带字幕最终成片。A/C/E 各 7 镜，B/D 各 6 镜，点任意一套即可演示完整流程。</p>
+        </div>
+        <div class="stats" id="stats"></div>
+      </div>
+      <div class="preset-grid" id="presetGrid"></div>
+      <p class="muted foot">本页面为只读预制演示：可查看全部阶段、逐镜视频与最终成片；实时创建、模型生成和配置修改请使用本机完整程序。</p>
+    </section>
+
+    <!-- 工作流画布：从一句话到最终成片 -->
+    <section id="view-workflow" class="view hidden">
+      <div class="view-head"><div><h2>视频创作工作流</h2><p>一句话输入 · 前期拆解 · 七阶段产物 · 最终成片</p></div><button class="btn" id="backDetailBtn">返回工程详情 →</button></div>
+      <div class="card workflow-input-card">
+        <div class="workflow-input-label"><span class="live-dot"></span> 一句话创意</div>
+        <textarea id="wfBrief" rows="2" placeholder="例如：用名场面穿越的方式，让3800吨门机与愚公移山同框"></textarea>
+        <div class="workflow-actions"><select id="wfProject" class="project-select"></select><button class="btn primary" id="wfCreateBtn">创建并一键拆解</button><button class="btn" id="wfDemoBtn">▶ 预制流程演示</button><button class="btn ghost" id="wfFinalBtn">查看最终成片</button></div>
+      </div>
+      <div class="card flow-card">
+        <div class="flow-card-head"><div><strong>创作画布</strong><span id="wfProjectMeta"></span></div><span class="hint">点击节点查看产物 · 预制演示不重新生成</span></div>
+        <div class="flow-canvas"><div id="flowNodes" class="flow-nodes"></div></div>
+      </div>
+      <div class="card workflow-detail-card"><div id="wfStageContent"></div></div>
+    </section>
+
+    <!-- 一键制作 -->
+    <section id="view-create" class="view hidden">
+      <div class="create-layout">
+        <aside>
+          <div class="card">
+            <h2>一句话创意</h2>
+            <textarea id="brief" rows="4" placeholder="例如：卫华新中式起重机，较传统起重机高度降低约30%，面向集团领导评审。&#10;每行一个主题，可一次输入多个主题形成矩阵。"></textarea>
+            <div class="grid2">
+              <label>风格<select id="style"><option>工业史诗</option><option>产品科普</option><option>品牌宣言</option><option>名场面穿越</option></select></label>
+              <label>画幅<select id="ratio"><option>16:9</option><option>9:16</option></select></label>
+              <label>目标时长（秒）<input id="durationTarget" type="number" value="40" min="10" max="120" /></label>
+              <label>场景数<input id="sceneCount" type="number" value="6" min="4" max="14" /></label>
+              <label>每主题变体数<input id="variants" type="number" value="1" min="1" max="8" /></label>
+            </div>
+            <button class="btn primary" id="createBtn">创建矩阵工程</button>
+          </div>
+          <div class="card">
+            <div class="row between"><h2>工程矩阵</h2><button class="btn small" id="runAllBtn">批量一键制作</button></div>
+            <div id="projectList" class="project-list"></div>
+          </div>
+        </aside>
+        <div id="createHint" class="empty card">在左侧创建工程，或从下方矩阵选择工程，开始一键式制作。</div>
+      </div>
+    </section>
+
+    <!-- 工程详情（演示与制作共用） -->
+    <section id="view-detail" class="view hidden">
+      <div class="detail-head card">
+        <div>
+          <button class="link" id="backBtn">← 返回</button>
+          <h2 id="pTitle"></h2>
+          <p class="muted" id="pMeta"></p>
+        </div>
+        <div class="row">
+          <button class="btn" id="workflowBtn">工作流画布</button>
+          <button class="btn primary" id="finalBtn">▶ 最终成片</button>
+          <button class="btn" id="playBtn">连续播放逐镜</button>
+          <button class="btn" id="runBtn">一键跑全流程</button>
+          <button class="btn ghost" id="refreshBtn">刷新</button>
+        </div>
+      </div>
+      <nav class="tabs" id="tabs"></nav>
+      <div id="stageContent" class="card stage-content"></div>
+      <details class="logs card"><summary>执行日志</summary><pre id="logs"></pre></details>
+    </section>
+  </main>
+
+  <!-- 连续播放 -->
+  <div id="player" class="player hidden">
+    <div class="player-box">
+      <div class="row between player-head">
+        <div><b id="plTitle"></b><span class="muted" id="plSub"></span></div>
+        <button class="btn small" id="plClose">退出播放</button>
+      </div>
+      <div class="video-wrap">
+        <video id="plVideo" playsinline autoplay></video>
+        <div class="subtitle" id="plSubtitle"></div>
+      </div>
+      <div class="row between">
+        <span class="muted" id="plNarration"></span>
+        <div class="row"><button class="btn small" id="plPrev">上一镜</button><button class="btn small" id="plNext">下一镜</button></div>
+      </div>
+    </div>
+  </div>
+
+  <dialog id="settings">
+    <h2>通道设置</h2>
+    <p class="muted">密钥只保存在本机 config.local.json，不进入 Git。文本通道未配置时自动使用内置模板引擎。</p>
+    <h3>文本模型（OpenAI 兼容）</h3>
+    <div class="grid2">
+      <label>模式<select id="llmMode"><option value="template">内置模板引擎</option><option value="openai">OpenAI 兼容大模型</option></select></label>
+      <label>模型<input id="llmModel" placeholder="如 gpt-4o-mini / doubao-pro-32k" /></label>
+      <label>Base URL<input id="llmBase" placeholder="https://.../v1" /></label>
+      <label>API Key<input id="llmKey" type="password" placeholder="留空表示不修改" /></label>
+    </div>
+    <button class="btn small" id="testLlm">测试文本通道</button>
+    <h3>图像通道（aicost 中转站）</h3>
+    <div class="grid2">
+      <label>Base URL<input id="imgBase" /></label>
+      <label>模型<input id="imgModel" /></label>
+      <label>API Key<input id="imgKey" type="password" placeholder="留空表示不修改" /></label>
+      <label>默认尺寸<input id="imgSize" /></label>
+    </div>
+    <button class="btn small" id="testImg">测试图像通道</button>
+    <h3>视频通道</h3>
+    <div class="grid2">
+      <label>模式<select id="videoMode"><option value="prompt-pack">提示词 + 任务包</option></select></label>
+      <label>Base URL<input id="videoBase" /></label>
+    </div>
+    <div class="row end"><span id="settingsMsg" class="muted"></span>
+      <button class="btn primary" id="saveSettings">保存</button>
+      <button class="btn ghost" id="closeSettings">关闭</button>
+    </div>
+  </dialog>
+  <script>window.WEIHUA_STATIC = true;</script>
+  <script src="./app.js"></script>
+</body>
+</html>

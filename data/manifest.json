@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "static": true,
+  "projects": 5,
+  "mediaFiles": 81,
+  "mediaBytes": 168228287,
+  "limitations": [
+    "只读预制演示",
+    "不执行实时文本/图片/视频生成",
+    "不保存工程或通道配置"
+  ],
+  "generatedAt": "2026-11-11T00:27:21.256285+00:00"
+}

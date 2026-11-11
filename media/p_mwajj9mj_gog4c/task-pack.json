@@ -1,0 +1,95 @@
+{
+  "schema": "weihua.video-task-pack/v1",
+  "project": {
+    "id": "p_mwajj9mj_gog4c",
+    "title": "名场面穿越 · 3800t 门机",
+    "style": "名场面穿越",
+    "ratio": "16:9"
+  },
+  "shots": [
+    {
+      "shot_id": "SH01",
+      "duration_seconds": 10,
+      "ratio": "16:9",
+      "prompt": "巨型门机全景，工程师背影，尘雾逆光。镜头：低机位缓慢推近。动作：尘雾流动，逆光渐强。画面无文字、字母、数字、商标、水印。",
+      "negative_prompt": "no text, no letters, no digits, no logos, no watermark",
+      "first_frame": "/files/p_mwajj9mj_gog4c/assets/A01.png",
+      "subtitle": "这台起重机\n连神话都要来借力",
+      "narration": "这台起重机，连神话都要来借力。",
+      "status": "ready",
+      "video": "/files/p_mwajj9mj_gog4c/videos/SH01.mp4"
+    },
+    {
+      "shot_id": "SH02",
+      "duration_seconds": 10,
+      "ratio": "16:9",
+      "prompt": "古装人物抬头指向门机，夸张尺度对比。镜头：横移跟拍。动作：人物抬手，衣袖飘动。画面无文字、字母、数字、商标、水印。",
+      "negative_prompt": "no text, no letters, no digits, no logos, no watermark",
+      "first_frame": "/files/p_mwajj9mj_gog4c/assets/A02.png",
+      "subtitle": "愚公之问\n这座山怎么搬",
+      "narration": "愚公问：这座山，你们怎么搬？",
+      "status": "ready",
+      "video": "/files/p_mwajj9mj_gog4c/videos/SH02.mp4"
+    },
+    {
+      "shot_id": "SH03",
+      "duration_seconds": 10,
+      "ratio": "16:9",
+      "prompt": "双小车吊起巨型构件，人群仰视。镜头：固定机位微推。动作：构件缓慢离地。画面无文字、字母、数字、商标、水印。",
+      "negative_prompt": "no text, no letters, no digits, no logos, no watermark",
+      "first_frame": "/files/p_mwajj9mj_gog4c/assets/A03.png",
+      "subtitle": "总起重量 3800 吨\n≈2500辆小轿车·估算",
+      "narration": "总起重量3800吨，约相当于2500辆小轿车，按每辆1.5吨估算。",
+      "status": "ready",
+      "video": "/files/p_mwajj9mj_gog4c/videos/SH03.mp4"
+    },
+    {
+      "shot_id": "SH04",
+      "duration_seconds": 10,
+      "ratio": "16:9",
+      "prompt": "吊钩上升穿越云层。镜头：拉远揭示全貌。动作：镜头随吊钩上升。画面无文字、字母、数字、商标、水印。",
+      "negative_prompt": "no text, no letters, no digits, no logos, no watermark",
+      "first_frame": "/files/p_mwajj9mj_gog4c/assets/A04.png",
+      "subtitle": "起升高度 130 米\n≈43层楼·估算",
+      "narration": "起升高度130米，约43层楼，按每层3米估算。",
+      "status": "ready",
+      "video": "/files/p_mwajj9mj_gog4c/videos/SH04.mp4"
+    },
+    {
+      "shot_id": "SH05",
+      "duration_seconds": 10,
+      "ratio": "16:9",
+      "prompt": "双小车协同，构件空中姿态调整。镜头：环绕小幅度摇动。动作：构件缓慢旋转。画面无文字、字母、数字、商标、水印。",
+      "negative_prompt": "no text, no letters, no digits, no logos, no watermark",
+      "first_frame": "/files/p_mwajj9mj_gog4c/assets/A05.png",
+      "subtitle": "双小车抬吊\n空中分段翻身 1900 吨",
+      "narration": "双小车抬吊，空中分段翻身1900吨。",
+      "status": "ready",
+      "video": "/files/p_mwajj9mj_gog4c/videos/SH05.mp4"
+    },
+    {
+      "shot_id": "SH06",
+      "duration_seconds": 10,
+      "ratio": "16:9",
+      "prompt": "夕阳下门机剪影，留出品牌文案区。镜头：固定机位。动作：云缓慢流动，光线渐暗。画面无文字、字母、数字、商标、水印。",
+      "negative_prompt": "no text, no letters, no digits, no logos, no watermark",
+      "first_frame": "/files/p_mwajj9mj_gog4c/assets/A06.png",
+      "subtitle": "卫华集团\n大国重器 卫华担纲",
+      "narration": "卫华集团，大国重器，卫华担纲。",
+      "status": "ready",
+      "video": "/files/p_mwajj9mj_gog4c/videos/SH06.mp4"
+    },
+    {
+      "shot_id": "SH07",
+      "duration_seconds": 4,
+      "ratio": "16:9",
+      "prompt": "既有尾镜暗化，固定机位，品牌文字后期合成，4 秒静态落板。",
+      "negative_prompt": "no unofficial logo, no watermark",
+      "first_frame": "/files/p_mwajj9mj_gog4c/assets/A07.png",
+      "subtitle": "卫华集团\nAI 生成演示 · 内部预览",
+      "narration": "卫华集团。",
+      "status": "ready",
+      "video": "/files/p_mwajj9mj_gog4c/videos/SH07.mp4"
+    }
+  ]
+}
